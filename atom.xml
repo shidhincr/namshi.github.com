@@ -4,7 +4,7 @@
   <title><![CDATA[Tech @ Namshi.com]]></title>
   <link href="http://tech.namshi.com/atom.xml" rel="self"/>
   <link href="http://tech.namshi.com/"/>
-  <updated>2014-07-02T22:47:07+04:00</updated>
+  <updated>2014-07-05T21:21:26+04:00</updated>
   <id>http://tech.namshi.com/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
@@ -12,6 +12,85 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[A bit of Namshi at the 2014 AWS re:invent]]></title>
+    <link href="http://tech.namshi.com/blog/2014/07/05/a-bit-of-namshi-at-the-2014-aws-re-invent/"/>
+    <updated>2014-07-05T20:54:00+04:00</updated>
+    <id>http://tech.namshi.com/blog/2014/07/05/a-bit-of-namshi-at-the-2014-aws-re-invent</id>
+    <content type="html"><![CDATA[<p><img class="left" src="http://ztona.net/wp-content/uploads/2014/06/476d57951db8e5b93f7cac1fe923c506.png" width="120"></p>
+
+<p>It&rsquo;s gonna be a great time in Las Vegas for
+<a href="http://tech.namshi.com/team#Oluwaseun%20Obajobi">Oba</a>, our Lead
+System Administrator, who is going to attend
+the 2014 edition of <a href="https://reinvent.awsevents.com/">AWS re:invent</a>,
+the international event for the cloud lovers.</p>
+
+<!-- more -->
+
+
+<p>re:invent, which is gonna gather professionals from
+all over the world, is definitely going to be a great
+source of inspiration for our systems, and we&rsquo;re
+very happy to have someone who will be able
+to get a closer look at best practices, processes
+and tools in the industry; to learn from the community
+and the industry leaders is something we value very
+much, here at Namshi.</p>
+
+<p>Never heard of re:invent before?</p>
+
+<ul>
+<li>the largest gathering of the AWS community</li>
+<li>sessions spread over <a href="https://reinvent.awsevents.com/sessions.html">20 topics</a></li>
+<li><a href="https://reinvent.awsevents.com/training.html#bootLink">bootcamps</a></li>
+<li>new AWS products get usually announced there</li>
+<li>on-the-spot <a href="https://reinvent.awsevents.com/training.html#certLink">certifications</a></li>
+</ul>
+
+
+<p>We wish Oba a safe trip there&hellip;   &hellip;and have
+a blast in the States!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Newsletter #45]]></title>
+    <link href="http://tech.namshi.com/blog/2014/07/03/newsletter-number-45/"/>
+    <updated>2014-07-03T11:30:00+04:00</updated>
+    <id>http://tech.namshi.com/blog/2014/07/03/newsletter-number-45</id>
+    <content type="html"><![CDATA[<p>Welcome to <strong>TechThursday</strong>!</p>
+
+<h2>Announcements</h2>
+
+<p>This week we say <a href="http://tech.namshi.com/blog/2014/07/02/goodbye-lucianino/">goodbye</a> to @luciano, you will be missed!</p>
+
+<p>We&rsquo;ve been working on <a href="https://github.com/namshi/clusterjs">clusterjs</a>! Take a look at the <a href="http://tech.namshi.com/blog/2014/06/27/clusterjs-clusterify-your-nodejs-applications-and-achieve-zero-downtime-deployments/">blog post</a> Today we released version 0.7!</p>
+
+<p>Our @Cirpo will be speaking at the PHP North East Conference in Boston in a couple of days! Read about his presentation <a href="http://tech.namshi.com/blog/2014/06/29/the-namshees-invade-the-usa-dot-dot-dot-dot-dot-dot-with-php/">here</a></p>
+
+<h2>Newsletter</h2>
+
+<ul>
+<li><a href="https://github.com/codemix/fast.js">Faster user-land re-implementations for several common built-in native JavaScript functions</a></li>
+<li><a href="http://blog.embed.ly/post/89265229166/what-twitter-isnt-telling-you-about-gifs">What Twitter Isn’t Telling You About GIFs</a></li>
+<li><a href="http://www.breefield.com/essays/affiliate">How I Made $3,000 with 90 Lines of Code</a></li>
+<li><a href="http://www.akamai.com/worldcup">Akamai delivers for the world cup</a></li>
+<li><a href="http://symfony.com/blog/first-online-symfony-community-hack-day-july-5th">First Online Symfony Community Hack Day: July 5th!</a></li>
+<li><a href="http://ng-inspector.org/">ng-inspect like a boss</a></li>
+<li><a href="http://www.smashingmagazine.com/2014/06/27/communicating-effectively-in-projects/">How To Communicate Effectively in IT Projects</a></li>
+<li><a href="http://blog.arvidandersson.se/2014/06/17/best-practices-in-modern-web-projects">Best practices in modern web projects</a></li>
+<li><a href="http://daemon.io/">PHP Deamon &ndash; Asynchronous server-side framework for Web and network applications implemented in PHP</a></li>
+<li><a href="http://phansible.com/">An easy to use interface that helps you generate Ansible Playbooks for PHP based projects</a></li>
+<li><a href="http://serversforhackers.com/editions/2014/07/01/ssh-tricks/">SSH Tricks</a></li>
+<li><a href="http://shields.io/">GitHub badges as a service</a></li>
+<li><a href="http://php-and-symfony.matthiasnoback.nl/2014/01/php-the-future-of-packages">PHP &ndash; The Future of Packages</a></li>
+<li><a href="http://code.tutsplus.com/tutorials/refactoring-legacy-code-part-7-identifying-the-presentation-layer--cms-21593">Refactoring Legacy Code: Part 7 &ndash; Identifying the Presentation Layer</a></li>
+<li><a href="http://www.slideshare.net/cakper/2014-0407-php-spec-the-only-design-tool-you-need-4developers">PHPSpec &ndash; the only Design Tool you need</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Goodbye Lucianino!]]></title>
@@ -1064,128 +1143,6 @@ JavaScript in general (Did I mention <a href="http://tech.namshi.com/blog/2014/0
 <p>You can read more about Shidhin in his <a href="http://www.undefinednull.com/">personal blog</a>
 or&hellip;starting to check our <a href="https://github.com/namshi">github page</a> out more often,
 as we&rsquo;re gonna see some more AngularJS-ish stuff over there!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Welcome Lucio!]]></title>
-    <link href="http://tech.namshi.com/blog/2014/05/26/welcome-lucio/"/>
-    <updated>2014-05-26T11:20:00+04:00</updated>
-    <id>http://tech.namshi.com/blog/2014/05/26/welcome-lucio</id>
-    <content type="html"><![CDATA[<p><img class="team left" src="http://tech.namshi.com/images/lucio.jpg"></p>
-
-<p>I am very happy to announce &ndash; even though I&rsquo;m a bit late &ndash; that
-<a href="https://twitter.com/unlucio">Luciano &ldquo;unlucio&rdquo; Colosio</a>
-is part of our crazy team!</p>
-
-<p>He&rsquo;s been quite proficient in spreading JavaScript
-all around his software architectures, thus we felt he
-was a perfect match for Namshi: among his past creations
-there&rsquo;s even a <a href="https://github.com/unlucio/MarcoPolo">REST driver for OrientDB</a> in NodeJS.</p>
-
-<p>Lucio will boost our frontend productivity bringing in
-the software design skills we always like to welcome:
-simplicity, clean code and good engineering.</p>
-
-<p>(<em>&hellip;and they say he&rsquo;s a great chef!</em>)</p>
-
-<p>You can read more about Lucio in his <a href="http://blog.unlucio.com/">personal blog</a>
-or&hellip;starting to check our <a href="https://github.com/namshi">github page</a> out more often,
-as I sense we&rsquo;re gonna see some more NodeJS there!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[jsDay and phpDay recap]]></title>
-    <link href="http://tech.namshi.com/blog/2014/05/25/jsday-phpday-recap/"/>
-    <updated>2014-05-25T19:33:00+04:00</updated>
-    <id>http://tech.namshi.com/blog/2014/05/25/jsday-phpday-recap</id>
-    <content type="html"><![CDATA[<p><img class="center" src="http://tech.namshi.com/images/posts/rasmus-namshi-scaled.png" width="800" title="Rasmus Lerdorf - Namshi team" alt="Rasmus Lerdorf with the Namshi team"></p>
-
-<p>One week ago, Luciano, Lucio, Alex and I attended the annual <a href="http://jsday.it">jsDay</a> and <a href="http://phpday.it">phpDay</a> in Verona organized by the <a href="http://grusp.it">GrUSP</a>, the Italian PHP user Group.
-It was a nice experience in the beautiful city of Verona, and an opportunity to meet interesting people from international communities while attending the talks during those 4 days.<br />
-The conferences were sold out, with more than 300 attendees and two tracks per day. Kudos and props to the organizers!</p>
-
-<br />
-
-
-<!-- more -->
-
-
-<p><img class="left" src="http://tech.namshi.com/images/posts/phpday-namshi-sponsor.jpg" width="200" title="Namshi phpDay sponsor" alt="Namshi phpDay sponsor"> Namshi was sponsoring the event, and we tried to do some recruitmement (did you check the <a href="http://tech.namshi.com/join-us">join-us</a> page?)</p>
-
-<br />
-
-
-<br />
-
-
-<br />
-
-
-<br />
-
-
-<h2>jsDay</h2>
-
-<p>During the jsDay, Luciano spoke about “AngularJS and mobile applications”, giving good insight into our experience using AngularJS while developing a mobile website.</p>
-
-<p>There were other presentations worth mentioning:</p>
-
-<ul>
-<li><a href="https://speakerdeck.com/gillesruppert/angularjs-the-good-the-bad-and-the-ugly">“AngularJS: The Good, The Bad and The Ugly “</a> by Gilles Rupert.</li>
-</ul>
-
-
-<div style="width:600px">
-<script async class="speakerdeck-embed" data-id="5f461ec0bd80013111d576b6210235ec" data-ratio="1.33333333333333" src="http://tech.namshi.com//speakerdeck.com/assets/embed.js"></script>
-</div>
-
-
-<ul>
-<li><p><a href="http://www.slideshare.net/DanniFriedland/nsajs">“NSA.JS”</a> by Danni Friedland who presented this cool library to track the user browse experience</p></li>
-<li><p><a href="http://www.slideshare.net/fgalassi/the-strange-world-of-javascript-and-all-its-little-asynchronous-beasts">“The strange world of Javascript and all its little asynchronous beasts”</a> by Federico Galassi</p></li>
-<li><p><a href="http://massimiliano-mantione.github.io/talks/JsDay2014/ReactiveMetaprogramming/GHP/">“Monads, Promises, and Reactive Metaprogramming”</a> by Massimiliano Mantione</p></li>
-</ul>
-
-
-<p>The complete talks list with slides are on <a href="http://joind.in/event/view/1638">joind.in</a>.</p>
-
-<br />
-
-
-<h2>phpDay</h2>
-
-<p><a href="http://talks.php.net/phpday14#/">The opening keynote</a> was addressed by Rasmus Lerdord (the PHP creator), showing us an interesting, and sometimes passionate, overview of what’s new in PHP 5.6 and the technical/design choices behind it.</p>
-
-<p>Alex and I gave a talk about “How to build <strong>durable</strong> web apis” based on our experience at Namshi while
-building our Service Oriented Architechture.</p>
-
-<iframe src="http://www.slideshare.net/slideshow/embed_code/34815904" width="597" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
-
-
-<p> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/cirpo/dont-screw-it-up-how-to-build-durable-web-apis" title="Don&#x27;t screw it up: how to build durable web apis" target="_blank">Don&#x27;t screw it up: how to build durable web apis</a> </strong> from <strong><a href="http://www.slideshare.net/cirpo" target="_blank">alessandro cinelli</a></strong> </div></p>
-
-<p>Other very interesting presentations:</p>
-
-<ul>
-<li><p>I really enjoyed the talk <a href="http://verraes.net/2014/03/practical-event-sourcing/">“Practical Event Sourcing”</a> by Mathias Verraes.
-I also suggest <a href="https://speakerdeck.com/mathiasverraes">checking other presentations</a> from this great speaker.</p></li>
-<li><p>Another great presentation was given by Marcello Duarte, the master of <a href="http://www.phpspec.net/">PHPspec</a>, <a href="http://www.slideshare.net/marcello.duarte/emergent-design-with-phpspec">&ldquo;Emergent design with phpspec&rdquo;</a></p></li>
-<li><p>Konstantin Kudryashov, the guy behind <a href="http://behat.org/">Behat</a> with <a href="http://www.slideshare.net/everzet/moving-away-from-legacy-code-with-bdd">&ldquo;Moving Away from Legacy code with BDD&rdquo;</a></p></li>
-</ul>
-
-
-<p>The complete phpDay talk list and slides can be found on <a href="http://joind.in/event/view/1637">joind.in</a> as well.</p>
-
-<h2>Join communities!</h2>
-
-<p>Attending conferences that are community driven like jsDay and phpDay
-are always a great moment to improve yourself as a developer and they give you the possibility to be part of the community.
-You have the chance to understand what’s going on in our field, talk in person with other devs that maybe you just know because you sent a PR to their awesome opensource project on Github, getting tons of advices and inspiration and so on.
-Keep following <a href="http://twitter.com/technamshi">@TechNamshi</a> on twitter, a <strong>new community</strong> is coming in Dubai&hellip; <strong>stay tuned!</strong></p>
-
-<p>Follow <a href="http://twitter.com/jsconfit">@jsday</a> and <a href="http://twitter.com/phpday">@phpday</a> to stay updated on when they are going to release the talks videos.</p>
 ]]></content>
   </entry>
   
