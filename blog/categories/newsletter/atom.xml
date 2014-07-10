@@ -4,7 +4,7 @@
   <title><![CDATA[Category: newsletter | Tech @ Namshi.com]]></title>
   <link href="http://tech.namshi.com/blog/categories/newsletter/atom.xml" rel="self"/>
   <link href="http://tech.namshi.com/"/>
-  <updated>2014-07-05T21:21:26+04:00</updated>
+  <updated>2014-07-10T10:33:11+04:00</updated>
   <id>http://tech.namshi.com/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
@@ -12,6 +12,61 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Newsletter #46]]></title>
+    <link href="http://tech.namshi.com/blog/2014/07/10/newsletter-number-46/"/>
+    <updated>2014-07-10T10:07:00+04:00</updated>
+    <id>http://tech.namshi.com/blog/2014/07/10/newsletter-number-46</id>
+    <content type="html"><![CDATA[<p>As usual, it&rsquo;s #TechThursday!</p>
+
+<!-- more -->
+
+
+<blockquote><p>We wanted to take a moment to share the <a href="http://www.gofundme.com/b9dfcg">fundraiser for
+Joe Watkins</a>, a very
+active contributor to the PHP core ecosystem, who has
+recently struggled and is looking for some help.</p></blockquote>
+
+<p>And&hellip;what about us?</p>
+
+<p>This week we&rsquo;ve been talking about <a href="http://buff.ly/1j5avP6">rules to follow when writing OS code</a>
+and are still very excited for <a href="/team#Oluwaseun%20Obajobi">Oba</a>, who is gonna be in Las Vegas to attend
+the <a href="http://tech.namshi.com/blog/2014/07/05/a-bit-of-namshi-at-the-2014-aws-re-invent/">AWS re:invent</a> later this year.</p>
+
+<p>Hungry for tech news and tutorials, the team has collected this amazing list of
+resources over the past weeK:</p>
+
+<ul>
+<li><a href="http://techcrunch.com/2014/07/07/programmer-craig-muth-kickstarts-a-new-version-of-his-arguably-amazing-shell-xiki/">Programmer Craig Muth Kickstarts A New Version Of His (Arguably Amazing) Shell, Xiki</a></li>
+<li><a href="http://startuptabs.com/">Startup Tabs, Discover a new startup on each new tab</a></li>
+<li><a href="http://nakedsecurity.sophos.com/2014/07/07/remember-macro-viruses-infected-word-and-excel-files-theyre-back/">Remember macro viruses? Infected Word and Excel files? They&rsquo;re back&hellip;</a></li>
+<li><a href="http://brikis98.blogspot.ae/2014/05/dont-learn-to-code-learn-to-think.html">Don&rsquo;t learn to code. Learn to think.</a></li>
+<li><a href="https://www.apichangelog.com/">API Changelog monitors the docs of APIs you depend on and sends you notifications when they change</a></li>
+<li><a href="https://medium.com/code-adventures/4ba9e7f3e52b">Farewell NodeJs, Hello Go</a></li>
+<li><a href="http://www.google.com/design/">Design @ Google</a></li>
+<li><a href="http://www.techempower.com/benchmarks/">Web Framework Benchmarks</a></li>
+<li><a href="http://buff.ly/1jZU0ip">Rob Pike&rsquo;s Rules of Programming</a></li>
+<li><a href="http://buff.ly/1qcuj20">HTTP API Design guide</a></li>
+<li><a href="http://buff.ly/1zkxbzU">So you want to be a PHP Developer?</a></li>
+<li><a href="http://buff.ly/1qOTAD4">Google Has Given #HTTPS a Huge Boost</a></li>
+<li><a href="http://buff.ly/1jhGmfT">The Next Big #Programming Language You’ve Never Heard Of</a></li>
+<li><a href="http://buff.ly/1ou121C">Inbox — The next-generation email platform</a></li>
+<li><a href="http://buff.ly/1j99JRc">New Low Cost EC2 Instances with Burstable Performance</a></li>
+<li><a href="http://buff.ly/1q4ZA6Y">Call me maybe: Elasticsearch gotchas</a></li>
+<li><a href="http://jsmodules.io">A Guide to JavaScript Modules</a></li>
+<li><a href="http://journal.crushlovely.com/post/89978453593/7-patterns-to-refactor-javascript-applications-query">7 Patterns to Refactor JavaScript Applications: Query Objects</a></li>
+<li><a href="http://davidandsuzi.com/using-react-for-faster-renders-and-isomorphism-in-angular">Using React for Faster Renders and Isomosphism in Angular</a></li>
+<li><a href="http://css-tricks.com/fixing-tables-long-strings/">Understanding Fixed Table Layout in CSS</a></li>
+<li><a href="http://ariya.ofilabs.com/2014/07/extracting-parts-of-git-repository-and-keeping-the-history.html">Extracting Parts of Git Repository and Keeping the History</a></li>
+<li><a href="http://www.smashingmagazine.com/2014/07/08/breakpoints-and-the-future-websites">Breakpoints And The Future Of Websites</a></li>
+<li><a href="http://keyholesoftware.com/2014/07/07/lessons-in-automated-testing">Lessons Learned in Automated Testing</a></li>
+<li><a href="http://strongloop.com/strongblog/automatic-node-js-clustering-with-log-aggregation">Automatic Node.js Clustering with Log Aggregation </a></li>
+<li><a href="http://javascript.crockford.com/tdop/tdop.html">Top Down Operator Precedence</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Newsletter #44]]></title>
@@ -184,52 +239,6 @@ We have cookies, #Symfony2, #nodejs, #AngularJS, #redis, #rabbitmq and coding ch
 <li><p><a href="http://http://gaudi.io/">Setup of isolated and decoupled dev environments</a></p></li>
 <li><p><a href="http://matt.aimonetti.net/posts/2013/08/27/what-technology-should-my-startup-use/">What Technology Should My Startup Use?</a></p></li>
 <li><p><a href="http://leanstack.io/categories">Categorized list of great web application/service including companies using it</a></p></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Newsletter #40]]></title>
-    <link href="http://tech.namshi.com/blog/2014/05/29/newsletter-number-40/"/>
-    <updated>2014-05-29T12:45:00+04:00</updated>
-    <id>http://tech.namshi.com/blog/2014/05/29/newsletter-number-40</id>
-    <content type="html"><![CDATA[<p><strong>TA-DA! TechThursday</strong> newsletter is here!</p>
-
-<ul>
-<li><p><a href="http://www.html5rocks.com/en/tutorials/es7/observe">Object.observe will change everything you know about data binding. It&rsquo;s the future.</a></p></li>
-<li><p><a href="http://beta.slashdot.org/story/202599">PHP Next Generation</a></p></li>
-<li><p><strong>SOLID</strong>: Single Responsibility (SRP), Open/Close, Liskov&rsquo;s Substitution, Interface Segregation, and Dependency Inversion.<br />
-  Five principles that should guide you every time you write code.
-  <a href="http://code.tutsplus.com/tutorials/solid-part-1-the-single-responsibility-principle--net-36074">Part#1</a>,
-  <a href="http://code.tutsplus.com/tutorials/solid-part-2-the-openclosed-principle--net-36600">Part#2</a>,
-  <a href="http://code.tutsplus.com/tutorials/solid-part-3-liskov-substitution-interface-segregation-principles--net-36710">Part#3</a>,
-  <a href="http://code.tutsplus.com/tutorials/solid-part-4-the-dependency-inversion-principle--net-36872">Part#4</a></p></li>
-</ul>
-
-
-<!-- more -->
-
-
-<ul>
-<li><p><a href="http://www.infoworld.com/slideshow/153868/20-cool-things-you-can-do-raspberry-pi-243042">20 cool things you can do with a Raspberry Pi</a></p></li>
-<li><p><a href="http://www.pcworld.com/article/2159160/mit-tackled-earths-atmosphere-to-give-the-moon-broadband.html">MIT tackled Earth&rsquo;s atmosphere to give the moon broadband</a></p></li>
-<li><p><a href="http://unix.stackexchange.com/questions/8916/when-should-i-not-kill-9-a-process">When should I not kill -9 a process?</a></p></li>
-<li><p><a href="http://blog.workhere.io/googlebots-recent-improvements-might-revolutionize-web-development/">Google Bot’s Recent improvements might revolutionize web development</a></p></li>
-<li><p><a href="https://github.com/mapmeld/gitjk#gitjk">Undo what you just did in Git</a></p></li>
-<li><p><a href="http://wildlyinaccurate.com/a-hackers-guide-to-git">A hacker’s Guide to Git</a></p></li>
-<li><p><a href="http://www.bennadel.com/blog/2631-workflow-differences-between-scope-watch-and-attributes-observe-in-angularjs.htm">Understanding the difference between $scope.$watch() and Attributes.$observe() in AngularJS</a></p></li>
-<li><p><a href="http://www.20thingsilearned.com/en-US">20 Things I learned about browser and web: An interactive book by Google</a></p></li>
-<li><p><a href="http://www.stevesouders.com/blog/2014/02/11/measuring-localstorage-performance/">Measuring the performance of local storage</a></p></li>
-<li><p><a href="http://www.snopes.com/music/artists/vanhalen.asp">Van Halen&rsquo;s smart contract clauses</a></p></li>
-<li><p><a href="https://aws.amazon.com/blogs/aws/protect-your-data-with-new-ebs-encryption">AWS introduces additional EBS encryption</a></p></li>
-<li><p><a href="http://www.polygon.com/features/2014/5/13/5542406/qatar-girnaas-giddam">Making games in Qatar</a></p></li>
-<li><p><a href="http://loopback.io">LoopBack, a new NodeJS framework</a></p></li>
-<li><p><a href="http://gizmodo.com/5903827/the-humble-origins-of-the-html-blink-tag">How was the HTML blink tag born?</a></p></li>
-<li><p><a href="https://github.com/cargomedia/vagrant-phpstorm-tunnel">Vagrant PhpStorm Tunnel, a cool vagrant plugin that it will forward all php calls to php in the Vagrant VM</a></p></li>
-<li><p><a href="https://news.ycombinator.com/item?id=7806908">The new iteration of PHP (read the comments)</a> (for more drama you can read <a href="http://grokbase.com/t/php/php-internals/1455aesx7r/phpng-%04refactored-php-engine-with-big-performance-improvement/nested/page/3">internals discussion on PHPNG</a>)</p></li>
-<li><p><a href="http://code.tutsplus.com/series/data-structures-succinctly-part-1--cms-551">Data Structures Succinctly ebook</a></p></li>
-<li><p><a href="http://code.tutsplus.com/tutorials/the-repository-design-pattern--net-35804">The Repository Design Pattern (PHP)</a></p></li>
 </ul>
 
 ]]></content>
