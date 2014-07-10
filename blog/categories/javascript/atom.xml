@@ -4,7 +4,7 @@
   <title><![CDATA[Category: JavaScript | Tech @ Namshi.com]]></title>
   <link href="http://tech.namshi.com/blog/categories/javascript/atom.xml" rel="self"/>
   <link href="http://tech.namshi.com/"/>
-  <updated>2014-07-10T10:33:11+04:00</updated>
+  <updated>2014-07-10T10:59:27+04:00</updated>
   <id>http://tech.namshi.com/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
@@ -47,6 +47,17 @@ resources over the past weeK:</p>
 <li><a href="http://www.google.com/design/">Design @ Google</a></li>
 <li><a href="http://www.techempower.com/benchmarks/">Web Framework Benchmarks</a></li>
 <li><a href="http://buff.ly/1jZU0ip">Rob Pike&rsquo;s Rules of Programming</a></li>
+<li><a href="http://www.mysqlperformanceblog.com/2014/07/08/timestamp-columns-amazon-rds-5-6-and-you/">TIMESTAMP Columns, Amazon RDS 5.6, and You</a></li>
+<li><a href="http://flux7.com/blogs/uncategorized/examining-elastic-load-balancing-policies/?utm_source=Flux7+Blog+Subscriptions&amp;utm_medium=email&amp;utm_campaign=74cd5ecda2-RSS_EMAIL_CAMPAIGN&amp;utm_term=0_3f65e75df7-74cd5ecda2-108386453">Examining Elastic Load Balancing Policies</a></li>
+<li><a href="https://simplytestable.com/">Automated front-end web testing</a></li>
+<li><a href="https://xpect.io/">Xpect.io helps you monitor any piece of code as fast as copy-pasting, so you can be assured that what you did yesterday, is still working today. Get instantly notified so problems can be contained before they adversely affect your business</a></li>
+<li><a href="https://www.getstacker.com">Stacker:&ndash; The Easiest way to Publish &amp; Reply on Social Media</a></li>
+<li><a href="https://appthwack.com">AppThwack:&ndash; Test your app on 100s of real Android and iOS devices in the cloud</a></li>
+<li><a href="https://www.twilert.com/">Twilert:&ndash; Get realtime alerts via email when your brand names, keywords or hashtags are mentioned on Twitter </a></li>
+<li><a href="http://blog.pagerduty.com/2014/06/10-common-ops-mistakes/">10 Common Ops Mistakes</a></li>
+<li><a href="http://techblog.netflix.com/2014/06/announcing-security-monkey-aws-security.html">Netflix introduces new Security Monkey</a></li>
+<li><a href="https://github.com/whummer/toaster">Toaster:&ndash; Automated testing of Infrastructure as Code automation scripts (e.g., Chef)</a></li>
+<li><a href="http://www.ibm.com/developerworks/library/d-security-considerations-devops-adoption/index.html">Security considerations for DevOps adoption</a></li>
 <li><a href="http://buff.ly/1qcuj20">HTTP API Design guide</a></li>
 <li><a href="http://buff.ly/1zkxbzU">So you want to be a PHP Developer?</a></li>
 <li><a href="http://buff.ly/1qOTAD4">Google Has Given #HTTPS a Huge Boost</a></li>
