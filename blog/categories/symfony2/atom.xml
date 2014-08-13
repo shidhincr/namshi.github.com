@@ -4,7 +4,7 @@
   <title><![CDATA[Category: symfony2 | Tech @ Namshi.com]]></title>
   <link href="http://tech.namshi.com/blog/categories/symfony2/atom.xml" rel="self"/>
   <link href="http://tech.namshi.com/"/>
-  <updated>2014-07-10T10:59:27+04:00</updated>
+  <updated>2014-08-13T13:05:01+04:00</updated>
   <id>http://tech.namshi.com/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
@@ -12,6 +12,122 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Newsletter #48]]></title>
+    <link href="http://tech.namshi.com/blog/2014/07/24/newsletter-number-48/"/>
+    <updated>2014-07-24T12:03:00+04:00</updated>
+    <id>http://tech.namshi.com/blog/2014/07/24/newsletter-number-48</id>
+    <content type="html"><![CDATA[<p>Guess what? TechThursday is here!</p>
+
+<blockquote><p><em>What happened this week in the Namshi Tech team?</em></p>
+
+<p>This week we achieved a great result: our travis builds now take just 8 minutes to run all the test suite, we are super excited about this.<br />
+We will soon talk about it in a blog post, stay tuned and keep following <a href="http://twitter.com/technamshi">@TechNamshi</a></p></blockquote>
+
+<p>Enjoy the list of super uber interesting posts on the Web!</p>
+
+<ul>
+<li><p><a href="http://buff.ly/Uf8g0e">Zalando hits €1 billion in revenue in first half of 2014</a></p></li>
+<li><p><a href="http://csswizardry.com/2013/01/front-end-performance-for-web-designers-and-front-end-developers/">Front-end performance for web designers and front-end developers, long but useful article by @csswizardry about web performance, a really hot topic now.</a></p></li>
+<li><p><a href="https://speakerdeck.com/mathiasbynens/3-dot-14-things-i-didnt-know-about-css-at-css-day-2014">3.14 things I didn’t know about CSS &ndash; a great presentation from CSS Day 2014</a></p></li>
+<li><p><a href="https://gds.blog.gov.uk/2014/07/18/whats-the-design-process-at-gds/">What’s the design process at Governement Digital Service in UK?</a></p></li>
+</ul>
+
+
+<!-- more -->
+
+
+<ul>
+<li><p><a href="http://t.co/MvNu3WXg3A">Want a sneak peek at the PHP language spec the @HipHopVM team has been working on?</a></p></li>
+<li><p><a href="http://t.co/FVocuiIbur">How LinkedIn used PoPs and RUM to make dynamic content download 25% faster</a></p></li>
+<li><p><a href="http://buff.ly/1qrKDjV">Elasticsearch in 15 minutes</a></p></li>
+<li><p><a href="http://buff.ly/1mojG8x">gulp inject is one of the best things discovered over the past 3 months&hellip;</a></p></li>
+<li><p><a href="http://buff.ly/UfOyBn">Redesigning the perfect checkout</a></p></li>
+<li><p><a href="http://buff.ly/1qOqW1x">Schedule Load Tests for #APIs in the Cloud for Free</a></p></li>
+<li><p><a href="http://buff.ly/1rweFjF">JadoPado InstaSearch with Algolia</a></p></li>
+<li><p><a href="http://buff.ly/1yB90Mq">What happens when you search &lsquo;ugly hack&rsquo; in GitHub</a></p></li>
+<li><p><a href="http://buff.ly/1qNmlN6">Programming Is Not Math</a></p></li>
+<li><p><a href="http://buff.ly/Uf2USD">Riemann &ndash; A network monitoring system</a></p></li>
+<li><p><a href="http://buff.ly/1qLpg8V">12 killer resources for #api practitioners</a></p></li>
+<li><p><a href="http://dl.hhvm.com/resources/PHPSpec-SneakPeak.pdf">PHP specification draft from Sara Golemon</a></p></li>
+<li><p><a href="http://labs.octivi.com/handling-1-billion-requests-a-week-with-symfony2/">Handling 1 Billion requests a week with Symfony2</a></p></li>
+<li><p><a href="https://markwillcollins.silvrback.com/7-things-i-wish-i-knew-about-angularjs">8 Things I wish I knew about AngularJs</a></p></li>
+<li><p><a href="http://highscalability.com/blog/2014/7/14/bitly-lessons-learned-building-a-distributed-system-that-han.html">Bitly: Lessons Learned Building A Distributed System That Handles 6 Billion Clicks A Month</a></p></li>
+<li><p><a href="https://github.com/fgrehm/vagrant-notify">Vagrant Notify &ndash; forward notify-send from vagrant host machine</a></p></li>
+<li><p><a href="http://xmpp.org/about-xmpp/technology-overview/">XMPP: The Extensible Messaging and Presence Protocol overview</a></p></li>
+<li><p><a href="http://code.tutsplus.com/tutorials/more-responsive-single-page-applications-with-angularjs-socketio-creating-the-library--cms-21738">More Responsive Single-Page Applications With AngularJS &amp; Socket.IO: Creating the Library</a></p></li>
+<li><p><a href="http://code.tutsplus.com/tutorials/refactoring-legacy-code-part-9-analyzing-concerns--cms-21760">Refactoring Legacy Code: Part 9 &ndash; Analyzing Concerns</a></p></li>
+<li><p><a href="http://templatespicy.com/2014/15-best-php-frameworks-2014/">15 best PHP frameworks in 2014</a></p></li>
+<li><p><a href="http://visualping.io/">Get notified on visual changes of a website or website area</a></p></li>
+<li><p><a href="http://pagekit.com/blog/2014/07/21/pagekit-public-alpha-launch">Pagekit, a new, modern CMS built with Symfony components</a></p></li>
+<li><p><a href="http://vexxhost.com/blog/small-dive-into-meteor-js/">Small dive into Meteor.js</a></p></li>
+<li><p><a href="http://9to5mac.com/2014/07/11/apple-launches-blog-to-highlight-new-swift-programming-language">Apple launches blog to highlight new Swift programming language</a></p></li>
+<li><p><a href="https://blog.codecentric.de/en/2014/06/10-early-thoughts-swift-programming-language">10 Early Thoughts on the Swift Programming Language</a></p></li>
+<li><p><a href="http://www.fastcolabs.com/3031400/whats-new-and-different-about-apples-new-swift-programming-language">The New And Different About Apple&rsquo;s New Swift Programming Language</a></p></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Newsletter #47]]></title>
+    <link href="http://tech.namshi.com/blog/2014/07/17/newsletter-number-47/"/>
+    <updated>2014-07-17T12:03:00+04:00</updated>
+    <id>http://tech.namshi.com/blog/2014/07/17/newsletter-number-47</id>
+    <content type="html"><![CDATA[<p>TechThursday is here!</p>
+
+<blockquote><p><em>What happened this week in the Namshi Tech team?</em></p>
+
+<p>This week our teammate <a href="http://tech.namshi.com/team/#Nikita%20Nefedov">nikita</a> got the time to work a bit on <a href="https://github.com/namshi/jose">namshi/jose</a>, and we ended up releasing version 1.1.1!<br />
+<strong>Jose</strong> is a PHP library that provides a lightweight implementation of <strong>JWS</strong> (<a href="http://tools.ietf.org/html/draft-jones-json-web-signature-04">JSON Web Signature</a>) specification.</p>
+
+<p>At the same time we are thrilled about the first <a href="http://symfony.com/blog/symfonylive-new-york-here-we-come-october-9-10">SymfonyLive New York</a>, we sent a bunch of cfps&hellip; let&rsquo;s cross our fingers!</p></blockquote>
+
+<p>Below the usual list of interesting resources we found out this week, enjoy!</p>
+
+<ul>
+<li><p><a href="http://buff.ly/1jQCIdf">Security releases (CVE-2014-4931): #Symfony 2.3.18, 2.4.8, and 2.5.2 released</a></p></li>
+<li><p><a href="http://buff.ly/1mh5zBN">httpbin: #HTTP Client Testing Service</a></p></li>
+<li><p><a href="http://buff.ly/1rfPkgd">&ldquo;I Do Not Know One Person Who Is Happy at Amazon&rdquo;</a></p></li>
+<li><p><a href="http://buff.ly/1mdnKYY">Digging into #Angular’s “Controller as” syntax</a></p></li>
+<li><p><a href="http://buff.ly/1oTCIIf">Write your #git hooks in #PHP and keep them under git control</a></p></li>
+<li><p><a href="http://buff.ly/1tAEK55">Why I’m staying with NodeJS</a></p></li>
+</ul>
+
+
+<!-- more -->
+
+
+<ul>
+<li><p><a href="http://t.co/ip61zsw87v">Guy writes a page explaining X11 for mortals <em>and embeds an X11 server in the page</em>. That’s it, everybody out.</a></p></li>
+<li><p><a href="http://buff.ly/1nh6IJW">Zero-downtime database migrations</a></p></li>
+<li><p><a href="http://buff.ly/1qqGUyy">Amazon Zocalo &ndash; Document Storage and Sharing for the Enterprise</a></p></li>
+<li><p><a href="http://buff.ly/1jhYrdw">Breach: a #browser for the #HTML5 era. Entirely written in #Javascript. Free. Modular. Hackable.</a></p></li>
+<li><p><a href="https://helloreverb.com/developers/swagger">Swagger: A simple, open standard for describing REST APIs with JSON | Reverb for Developers http://t.co/WZXF4VnAH3</a></p></li>
+<li><p><a href="http://www.infoq.com/presentations/8-lines-code-refactoring">8 Lines of Code: Greg Young discusses eight lines of very common code finding in them massive numbers of dependencies and difficulties, looking for ways to get rid of them.</a></p></li>
+<li><p><a href="http://msdn.microsoft.com/en-us/library/dn568099.aspx#_The_Sample_Applications">Cloud Design Patterns: Prescriptive Architecture Guidance for Cloud Applications</a></p></li>
+<li><p><a href="http://www.zdnet.com/developers-and-apple-open-up-on-new-swift-programming-language-7000031536">Developers and Apple open up on new Swift programming language</a></p></li>
+<li><p><a href="http://williamdurand.fr/2014/07/02/resting-with-symfony-sos/">RESTing with Symfony: SOS</a></p></li>
+<li><p><a href="https://github.com/jakubroztocil/httpie">HTTPie is a user-friendly cURL replacement</a></p></li>
+<li><p><a href="https://zapier.com/engineering/when-rest-gets-messy/">When REST Gets Messy</a></p></li>
+<li><p><a href="http://zsuraski.blogspot.co.il/2014/07/benchmarking-phpng.html?m=1">PHP-next-gen benchmark</a></p></li>
+<li><p><a href="https://github.com/cjbarber/ToolsOfTheTrade">HN Tools of the Trade, 2014 edition</a></p></li>
+<li><p><a href="https://medium.com/@manicho/how-a-password-changed-my-life-7af5d5f28038">How a Password changed my life</a></p></li>
+<li><p><a href="http://trackjs.com/">JavaScript Error Tracking</a></p></li>
+<li><p><a href="https://formcrafts.com/">Create amazing forms</a></p></li>
+<li><p><a href="http://nakedsecurity.sophos.com/2014/07/16/germany-considers-replacing-email-with-typewriters-to-evade-spying">Germany considers replacing email with typewriters to evade spying</a></p></li>
+<li><p><a href="https://github.com/sausheong/polyglot">A distributed web framework that allows programmers to create web applications in multiple programming languages</a></p></li>
+<li><p><a href="http://vimeo.com/92087878">Zach Holman: If Only I Knew This In College!</a></p></li>
+<li><p><a href="http://programmingisterrible.com/">Programming is terrible &ndash; lessons learned from a life wasted</a></p></li>
+<li><p><a href="http://brikis98.blogspot.ae/2014/03/the-ultimate-guide-to-getting-started.html">The Ultimate Guide to Getting Started with the Play Framework</a></p></li>
+<li><p><a href="http://www.andrisreinman.com/nodemailer-v1-0/">Nodemailer v1.0 released</a></p></li>
+<li><p><a href="http://blog.newrelic.com/2014/07/15/geekspeak-data/">10 Things Non-Developers Love To Say To Developers</a></p></li>
+<li><p><a href="http://realm.io/news/introducing-realm">Introducing Realm &ndash; a mobile-first database</a></p></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Newsletter #44]]></title>
@@ -203,87 +319,6 @@ we are far from being perfect: that&rsquo;s why we need <strong>you</strong> :)<
 
 <p><a href="https://github.com/namshi">github</a>
 <a href="https://twitter.com/technamshi">twitter</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Newsletter #28]]></title>
-    <link href="http://tech.namshi.com/blog/2014/03/06/newsletter-number-28/"/>
-    <updated>2014-03-06T14:05:00+04:00</updated>
-    <id>http://tech.namshi.com/blog/2014/03/06/newsletter-number-28</id>
-    <content type="html"><![CDATA[<p>Welcome back to <a href="/blog/categories/techthursday/">#TechThursday</a>!</p>
-
-<p>Today we present you some interesting news and articles from the world of web technology!</p>
-
-<p>*<a href="http://antirez.com/news/71">A simple distributed algorithm for small idempotent information</a></p>
-
-<p>*<a href="https://github.com/toddmotto/stratos">Stratos.js &ndash; Object manipulation module</a></p>
-
-<p>*<a href="http://usablica.github.io/progress.js/">progress.js &ndash; A themeable progress bar library for everything</a></p>
-
-<p>*<a href="http://zachholman.com/posts/only-90s-developers/">Only 90s Web Developers Remember This</a></p>
-
-<p>*<a href="http://hipsterdevstack.tumblr.com/">Hipster Dev Stack</a></p>
-
-<p>*<a href="http://www.theguardian.com/info/developer-blog/2014/feb/18/how-the-guardian-successfully-moved-domain">How the Guardian successfully moved domain to www.theguardian.com</a></p>
-
-<!-- more -->
-
-
-<p>*<a href="http://www.newfangled.com/the_way_you_design_web_content_is_about_to_change">The way you design web content is about to change</a></p>
-
-<p>*<a href="http://www.slideshare.net/sharkag/index-management-in-shallow-depth">Index management in shallow depth</a></p>
-
-<p>*<a href="http://www.sitepoint.com/data-fixtures-symfony2/">Data Fixtures in Symfony2</a></p>
-
-<p>*<a href="http://smartbear.com/products/software-development/what-is-code-review/">What IS Code Review?</a></p>
-
-<p>*<a href="http://www.couchbase.com/presentations/couchbase-tlv-2014-couchbase-at-viber">Viber Replaces MongoDB with Couchbase</a></p>
-
-<p>*<a href="https://github.com/orocrm/crm-application">OroCRM Application</a></p>
-
-<p>*<a href="http://www.symfony2cheatsheet.com/">Symfony2cheatsheet</a></p>
-
-<p>*<a href="http://www.codingthearchitecture.com/2014/03/05/five_things_every_developer_should_know_about_software_architecture.html">Five things every developer should know about software architecture</a></p>
-
-<p>*<a href="https://github.com/maxogden/rainbowify">rainbowify</a></p>
-
-<p>*<a href="http://www.slideshare.net/mathiasverraes/unbreakable-domain-models-phpuk-2014-london">Unbreakable Domain Models</a></p>
-
-<p>*<a href="http://www.slideshare.net/bluesmoon/presentations">web performance optimizations</a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Newsletter #25]]></title>
-    <link href="http://tech.namshi.com/blog/2014/02/07/newsletter-number-25/"/>
-    <updated>2014-02-07T22:30:00+04:00</updated>
-    <id>http://tech.namshi.com/blog/2014/02/07/newsletter-number-25</id>
-    <content type="html"><![CDATA[<p>It&rsquo;s <a href="/blog/categories/techthursday/">#TechThursday</a> again! Oh, actually it&rsquo;s friday but&hellip;whatever! :)</p>
-
-<br/>
-
-
-<br/>
-
-
-<ul>
-<li><a href="http://chadfowler.com/blog/2014/01/26/the-magic-of-strace/">Strace</a></li>
-<li><a href="https://github.com/HenrikJoreteg/fixpack">Fix your package.json!</a></li>
-<li><a href="http://www.sitepoint.com/guzzle-php-http-client/">Guzzle, an HTTP client for PHP</a></li>
-</ul>
-
-
-<!-- more -->
-
-
-<ul>
-<li><a href="https://dutchweballiance.nl/techblog/the-definitive-remote-debug-and-unittest-with-phpstorm-guide-part-6/">Remote debugging and testing with PHPStorm</a></li>
-<li><a href="http://blog.gopivotal.com/case-studies-2/continuous-integration-scaling-to-74000-builds-per-day-with-travis-ci-rabbitmq">Scaling 74k builds a day</a></li>
-<li><a href="https://37signals.com/">Goodbye 37signals, welcome Basecamp!</a></li>
-<li><a href="http://welcometothebundle.com/symfony2-rest-api-the-best-2013-way/">REST APIs with Symfony2</a></li>
-</ul>
-
 ]]></content>
   </entry>
   
