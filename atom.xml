@@ -4,7 +4,7 @@
   <title><![CDATA[Tech @ Namshi.com]]></title>
   <link href="http://tech.namshi.com/atom.xml" rel="self"/>
   <link href="http://tech.namshi.com/"/>
-  <updated>2014-08-14T17:26:14+04:00</updated>
+  <updated>2014-08-22T20:02:14+04:00</updated>
   <id>http://tech.namshi.com/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
@@ -12,6 +12,121 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[node-file-ensure, a small filesystem utility to make sure a file is there]]></title>
+    <link href="http://tech.namshi.com/blog/2014/08/22/node-file-ensure-a-small-filesystem-utility-to-make-sure-a-file-is-there/"/>
+    <updated>2014-08-22T19:42:00+04:00</updated>
+    <id>http://tech.namshi.com/blog/2014/08/22/node-file-ensure-a-small-filesystem-utility-to-make-sure-a-file-is-there</id>
+    <content type="html"><![CDATA[<p>This weekend we&rsquo;ve come up with a small utility
+that will make our life easier, and hopefully <strong>yours</strong>
+as well!</p>
+
+<!-- more -->
+
+
+<p>We use cascading mechanisms for our configurations, so, for
+example, we define the config in a few different files:</p>
+
+<ul>
+<li><code>base.yml</code>, that has all the common configurations</li>
+<li><code>dev.yml</code>, which is for local environments</li>
+<li><code>staging.yml</code>, which is for our staging environment</li>
+<li><code>live.yml</code>, well&hellip;you guessed it!</li>
+</ul>
+
+
+<p>So, for example, a <code>live.yml</code> might look like:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='yaml'><span class='line'><span class="l-Scalar-Plain">domain</span><span class="p-Indicator">:</span>   <span class="s">&#39;namshi.com&#39;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>whereas the base one has many more values:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='yaml'><span class='line'><span class="l-Scalar-Plain">apis</span><span class="p-Indicator">:</span>
+</span><span class='line'>  <span class="l-Scalar-Plain">version</span><span class="p-Indicator">:</span>   <span class="s">&#39;v1&#39;</span>
+</span><span class='line'>  <span class="l-Scalar-Plain">domain</span><span class="p-Indicator">:</span>    <span class="s">&#39;api.{{</span><span class="nv"> </span><span class="s">domain</span><span class="nv"> </span><span class="s">}}&#39;</span>
+</span><span class='line'>  <span class="l-Scalar-Plain">baseUrl</span><span class="p-Indicator">:</span>   <span class="s">&#39;https://{{</span><span class="nv"> </span><span class="s">apis.domain</span><span class="nv"> </span><span class="s">}}&#39;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>There&rsquo;s a problem with this approach: if one of the developers
+wants to change a value in his <code>dev.js</code> git will tell him that
+the file has changed, which is quite annoying!</p>
+
+<p>To overcome this we always put it in the <code>.gitignore</code>:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='yaml'><span class='line'><span class="l-Scalar-Plain">dev.yml</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>and instead commit a <code>dev.yml.example</code> file that has the
+skeleton of the file, asking everyone, when booting the application
+for the first time, to copy that file to a <code>dev.js</code>.</p>
+
+<p>Things work flawlessly until you need to do this 10 times
+(I mean, in 10 projects, like we do) or when you forget this step
+during the installation and waste a lot of time trying to debug why
+the application is not running correctly.</p>
+
+<p>To overcome this annoying issue we decided to develop a small utility,
+<a href="https://github.com/namshi/node-file-ensure">node-file-ensure</a>, that
+does all of this for you:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">var</span> <span class="nx">ensure</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;file-ensure&#39;</span><span class="p">);</span>
+</span><span class='line'>
+</span><span class='line'><span class="nx">ensure</span><span class="p">(</span><span class="s1">&#39;./config/dev.yml&#39;</span><span class="p">,</span> <span class="p">{</span><span class="nx">from</span><span class="o">:</span> <span class="s1">&#39;./config/dev.yml.example&#39;</span><span class="p">});</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Simple as that!</p>
+
+<p><code>ensure</code> will make sure to create an empty file if it doesnt find
+the one you specified:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="nx">ensure</span><span class="p">(</span><span class="s1">&#39;./config/dev.yml&#39;</span><span class="p">);</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>and is able to copy the contents from another file,
+like in the first example above:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="nx">ensure</span><span class="p">(</span><span class="s1">&#39;./config/dev.yml&#39;</span><span class="p">,</span> <span class="p">{</span><span class="nx">from</span><span class="o">:</span> <span class="s1">&#39;./config/dev.yml.example&#39;</span><span class="p">});</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>If you need to run any check after <code>ensure</code> has run,
+you can provide a callback:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="nx">ensure</span><span class="p">(</span><span class="s1">&#39;path/to/config/dev.yml&#39;</span><span class="p">,</span> <span class="p">{</span><span class="nx">src</span><span class="o">:</span> <span class="s1">&#39;path/to/config/dev.yml.example&#39;</span><span class="p">},</span> <span class="kd">function</span><span class="p">(</span><span class="nx">err</span><span class="p">){</span>
+</span><span class='line'>  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">fs</span><span class="p">.</span><span class="nx">readFileSync</span><span class="p">(</span><span class="s1">&#39;path/to/config/dev.yml&#39;</span><span class="p">).</span><span class="nx">toString</span><span class="p">()</span> <span class="o">===</span> <span class="nx">fs</span><span class="p">.</span><span class="nx">readFileSync</span><span class="p">(</span><span class="s1">&#39;path/to/config/dev.yml.example&#39;</span><span class="p">).</span><span class="nx">toString</span><span class="p">());</span>
+</span><span class='line'><span class="p">});</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>That&rsquo;s it! Tests run through mocha and we&rsquo;ve set them up
+on <a href="https://travis-ci.org/namshi/node-file-ensure">travis</a>,
+to be on the safe side :)</p>
+
+<p>If you have patches, suggestions or rants&hellip;feel free to open
+an <a href="https://github.com/namshi/node-file-ensure/issues">issue on GitHub</a>!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Newsletter #51]]></title>
@@ -103,7 +218,7 @@ knowing how to build the presentation and logic behind a full
 frontend application (AngularJS, Node or something more spicy
 like <a href="http://www.polymer-project.org/">polymer</a>).</p>
 
-<blockquote><p>Drop us an email at <a href="&#x6d;&#97;&#x69;&#x6c;&#x74;&#111;&#58;&#x77;&#111;&#114;&#107;&#45;&#105;&#x6e;&#45;&#116;&#x65;&#x63;&#104;&#64;&#x6e;&#x61;&#x6d;&#115;&#104;&#105;&#46;&#99;&#111;&#x6d;">&#x77;&#x6f;&#114;&#x6b;&#x2d;&#x69;&#x6e;&#x2d;&#116;&#x65;&#x63;&#x68;&#x40;&#x6e;&#97;&#x6d;&#x73;&#x68;&#x69;&#x2e;&#x63;&#111;&#109;</a> to apply or simply
+<blockquote><p>Drop us an email at <a href="&#109;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#58;&#119;&#111;&#114;&#107;&#x2d;&#105;&#110;&#x2d;&#116;&#x65;&#x63;&#104;&#64;&#110;&#97;&#x6d;&#115;&#x68;&#105;&#46;&#x63;&#111;&#x6d;">&#119;&#111;&#114;&#107;&#x2d;&#105;&#x6e;&#x2d;&#116;&#101;&#x63;&#x68;&#x40;&#110;&#x61;&#109;&#115;&#104;&#105;&#46;&#99;&#111;&#109;</a> to apply or simply
 get more informations about this job opening!</p></blockquote>
 
 <h2>Sitting on an empty (sysadmin) chair&hellip;</h2>
@@ -130,7 +245,7 @@ our configurations, and would like someone who can get his/her
 hands dirty with both programming and system administration
 to help the team.</p>
 
-<blockquote><p>Drop us an email at <a href="&#x6d;&#x61;&#105;&#x6c;&#x74;&#111;&#x3a;&#x77;&#111;&#x72;&#x6b;&#x2d;&#105;&#110;&#45;&#x74;&#101;&#99;&#104;&#x40;&#x6e;&#x61;&#109;&#x73;&#104;&#x69;&#46;&#x63;&#x6f;&#109;">&#x77;&#111;&#x72;&#x6b;&#x2d;&#x69;&#110;&#x2d;&#116;&#101;&#99;&#x68;&#x40;&#110;&#x61;&#x6d;&#x73;&#x68;&#x69;&#x2e;&#x63;&#x6f;&#109;</a> to apply or simply
+<blockquote><p>Drop us an email at <a href="&#x6d;&#x61;&#x69;&#x6c;&#x74;&#111;&#x3a;&#119;&#x6f;&#x72;&#x6b;&#x2d;&#105;&#x6e;&#45;&#x74;&#x65;&#99;&#x68;&#64;&#x6e;&#x61;&#x6d;&#115;&#x68;&#x69;&#46;&#99;&#x6f;&#109;">&#119;&#x6f;&#x72;&#107;&#45;&#x69;&#110;&#45;&#x74;&#x65;&#x63;&#104;&#64;&#110;&#x61;&#x6d;&#x73;&#x68;&#x69;&#46;&#x63;&#x6f;&#x6d;</a> to apply or simply
 get more informations about this job opening!</p></blockquote>
 
 <h2>I don&rsquo;t know if he&rsquo;s crying because of loneliness or because of NodeJS&hellip;</h2>
@@ -158,7 +273,7 @@ if we get someone that has been in a few different battlefields :)</p>
 code (or, even better: first solves the problem, then writes the
 test, then the code :-D).</p>
 
-<blockquote><p>Drop us an email at <a href="&#x6d;&#97;&#105;&#108;&#116;&#x6f;&#x3a;&#119;&#111;&#x72;&#107;&#x2d;&#x69;&#x6e;&#x2d;&#116;&#x65;&#x63;&#104;&#64;&#110;&#97;&#x6d;&#115;&#x68;&#105;&#x2e;&#99;&#x6f;&#109;">&#119;&#111;&#114;&#107;&#x2d;&#105;&#x6e;&#45;&#x74;&#x65;&#99;&#x68;&#64;&#x6e;&#97;&#109;&#x73;&#x68;&#x69;&#x2e;&#x63;&#111;&#x6d;</a> to apply or simply
+<blockquote><p>Drop us an email at <a href="&#x6d;&#x61;&#x69;&#108;&#x74;&#x6f;&#58;&#x77;&#x6f;&#x72;&#x6b;&#x2d;&#x69;&#110;&#45;&#x74;&#x65;&#x63;&#x68;&#64;&#110;&#x61;&#x6d;&#x73;&#104;&#105;&#46;&#x63;&#111;&#x6d;">&#119;&#x6f;&#114;&#x6b;&#x2d;&#x69;&#110;&#x2d;&#x74;&#101;&#99;&#104;&#x40;&#110;&#97;&#x6d;&#x73;&#x68;&#x69;&#46;&#x63;&#x6f;&#x6d;</a> to apply or simply
 get more informations about this job opening!</p></blockquote>
 
 <h2>About Namshi</h2>
@@ -189,7 +304,7 @@ benefits in working with us, but to recap the most important ones:</p>
 
 <blockquote><p>We are looking for a senior software engineer passionate about NodeJS and a frontend designer who is passionate and kick-ass in CSS and HTML and wants to expand his skillset with some JavaScript &mdash; we &lt;3 javascript :)</p>
 
-<p>We will detail in a separate post but, for the time being, feel free to reach out to submit your linkedin / github profile to <a href="&#x6d;&#97;&#105;&#108;&#116;&#111;&#58;&#119;&#x6f;&#114;&#x6b;&#45;&#x69;&#110;&#x2d;&#116;&#x65;&#x63;&#104;&#64;&#x6e;&#97;&#109;&#x73;&#104;&#105;&#46;&#x63;&#111;&#109;">&#x77;&#111;&#x72;&#107;&#45;&#x69;&#110;&#45;&#x74;&#x65;&#99;&#x68;&#64;&#x6e;&#x61;&#x6d;&#x73;&#x68;&#105;&#x2e;&#x63;&#x6f;&#x6d;</a></p></blockquote>
+<p>We will detail in a separate post but, for the time being, feel free to reach out to submit your linkedin / github profile to <a href="&#x6d;&#x61;&#x69;&#x6c;&#x74;&#111;&#58;&#x77;&#x6f;&#x72;&#107;&#x2d;&#105;&#110;&#x2d;&#x74;&#x65;&#99;&#x68;&#x40;&#110;&#x61;&#109;&#x73;&#104;&#x69;&#46;&#99;&#x6f;&#x6d;">&#x77;&#111;&#114;&#107;&#45;&#x69;&#110;&#45;&#x74;&#101;&#x63;&#x68;&#x40;&#110;&#x61;&#109;&#x73;&#104;&#105;&#46;&#99;&#111;&#x6d;</a></p></blockquote>
 
 <p>Here are your links for this week!</p>
 
@@ -1161,86 +1276,6 @@ with them! :)</p>
 engineers</a> and are looking to bootstrap our mobile team
 with a <a href="https://github.com/namshi/coding-challenges/blob/master/lead-mobile-engineer.md">Lead Mobile Engineer</a>:
 got leads? Got skills? Reach out and let&rsquo;s do Service-Oriented Architectures together!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Reconfig: declarative JavaScript configurations]]></title>
-    <link href="http://tech.namshi.com/blog/2014/06/07/reconfi-declarative-javascript-configurations/"/>
-    <updated>2014-06-07T00:50:00+04:00</updated>
-    <id>http://tech.namshi.com/blog/2014/06/07/reconfi-declarative-javascript-configurations</id>
-    <content type="html"><![CDATA[<p>We recently published a new library that let&rsquo;s you
-deal with configurations, in JavaScript, in a very
-elegant way.</p>
-
-<p>The library is called <a href="https://github.com/namshi/reconfig">Reconfig</a> and it&rsquo;s available
-through <a href="https://www.npmjs.org/package/reconfig">NPM</a> (if you need on the browser we highly
-recommend <a href="http://browserify.org/">browserify</a>): it&rsquo;s really
-small and simple, and thought to keep your
-configuration as elegant, simple and declarative as possible.</p>
-
-<!-- more -->
-
-
-<p>With reconfig you can do stuff like:</p>
-
-<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-<span class='line-number'>20</span>
-<span class='line-number'>21</span>
-<span class='line-number'>22</span>
-<span class='line-number'>23</span>
-<span class='line-number'>24</span>
-<span class='line-number'>25</span>
-<span class='line-number'>26</span>
-</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">var</span> <span class="nx">reconfig</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;reconfig&#39;</span><span class="p">);</span>
-</span><span class='line'>
-</span><span class='line'><span class="kd">var</span> <span class="nx">config</span> <span class="o">=</span>  <span class="k">new</span> <span class="nx">reconfig</span><span class="p">({</span>
-</span><span class='line'>    <span class="nx">greet</span><span class="o">:</span> <span class="s1">&#39;Hello :who!&#39;</span><span class="p">,</span>
-</span><span class='line'>    <span class="nx">sayhi</span><span class="o">:</span> <span class="s1">&#39;{{ greet }}&#39;</span>
-</span><span class='line'>    <span class="nx">countries</span><span class="o">:</span> <span class="p">{</span>
-</span><span class='line'>      <span class="nx">uae</span><span class="o">:</span> <span class="p">{</span>
-</span><span class='line'>          <span class="nx">population</span><span class="o">:</span> <span class="s1">&#39;2M&#39;</span><span class="p">,</span>
-</span><span class='line'>          <span class="nx">nationalDay</span><span class="o">:</span> <span class="s1">&#39;December 2nd&#39;</span>
-</span><span class='line'>      <span class="p">}</span>
-</span><span class='line'>      <span class="c1">// ...</span>
-</span><span class='line'>  <span class="p">}</span>
-</span><span class='line'><span class="p">});</span>
-</span><span class='line'>
-</span><span class='line'>
-</span><span class='line'><span class="c1">// Retrieve a deep config value</span>
-</span><span class='line'><span class="nx">config</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">&#39;countries.uae.nationalDay&#39;</span><span class="p">);</span> <span class="c1">// December, 2nd</span>
-</span><span class='line'>
-</span><span class='line'><span class="c1">// Pass parameters to the configuration</span>
-</span><span class='line'><span class="nx">config</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">&#39;greet&#39;</span><span class="p">,</span> <span class="p">{</span><span class="nx">who</span><span class="o">:</span> <span class="s1">&#39;John&#39;</span><span class="p">});</span> <span class="c1">// Hello, John!</span>
-</span><span class='line'>
-</span><span class='line'><span class="c1">// Reference other configuration parameters</span>
-</span><span class='line'><span class="nx">config</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">&#39;sayhi&#39;</span><span class="p">,</span> <span class="p">{</span><span class="nx">who</span><span class="o">:</span> <span class="s1">&#39;John&#39;</span><span class="p">});</span> <span class="c1">// Hello, John!</span>
-</span><span class='line'>
-</span><span class='line'><span class="c1">// Fallback values</span>
-</span><span class='line'><span class="nx">config</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">&#39;something&#39;</span><span class="p">,</span> <span class="p">{},</span> <span class="s1">&#39;invalid&#39;</span><span class="p">);</span> <span class="c1">// invalid</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>We&rsquo;re probably gonna look into porting the same to
-PHP (another big player in our stack) so&hellip;stay tuned!</p>
 ]]></content>
   </entry>
   
