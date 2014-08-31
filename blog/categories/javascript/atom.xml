@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: JavaScript | Tech @ Namshi.com]]></title>
-  <link href="http://tech.namshi.com/blog/categories/javascript/atom.xml" rel="self"/>
-  <link href="http://tech.namshi.com/"/>
-  <updated>2014-08-22T20:02:52+04:00</updated>
-  <id>http://tech.namshi.com/</id>
+  <link href="http://namshi.github.io/blog/categories/javascript/atom.xml" rel="self"/>
+  <link href="http://namshi.github.io/"/>
+  <updated>2014-08-31T21:53:05+04:00</updated>
+  <id>http://namshi.github.io/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[node-file-ensure, a small filesystem utility to make sure a file is there]]></title>
-    <link href="http://tech.namshi.com/blog/2014/08/22/node-file-ensure-a-small-filesystem-utility-to-make-sure-a-file-is-there/"/>
+    <link href="http://namshi.github.io/blog/2014/08/22/node-file-ensure-a-small-filesystem-utility-to-make-sure-a-file-is-there/"/>
     <updated>2014-08-22T19:42:00+04:00</updated>
-    <id>http://tech.namshi.com/blog/2014/08/22/node-file-ensure-a-small-filesystem-utility-to-make-sure-a-file-is-there</id>
+    <id>http://namshi.github.io/blog/2014/08/22/node-file-ensure-a-small-filesystem-utility-to-make-sure-a-file-is-there</id>
     <content type="html"><![CDATA[<p>This weekend we&rsquo;ve come up with a small utility
 that will make our life easier, and hopefully <strong>yours</strong>
 as well!</p>
@@ -118,9 +118,9 @@ an <a href="https://github.com/namshi/node-file-ensure/issues">issue on GitHub</
   
   <entry>
     <title type="html"><![CDATA[Newsletter #46]]></title>
-    <link href="http://tech.namshi.com/blog/2014/07/10/newsletter-number-46/"/>
+    <link href="http://namshi.github.io/blog/2014/07/10/newsletter-number-46/"/>
     <updated>2014-07-10T10:07:00+04:00</updated>
-    <id>http://tech.namshi.com/blog/2014/07/10/newsletter-number-46</id>
+    <id>http://namshi.github.io/blog/2014/07/10/newsletter-number-46</id>
     <content type="html"><![CDATA[<p>As usual, it&rsquo;s #TechThursday!</p>
 
 <!-- more -->
@@ -184,9 +184,9 @@ resources over the past weeK:</p>
   
   <entry>
     <title type="html"><![CDATA[ClusterJS, clusterify your NodeJS applications and achieve zero-downtime deployments]]></title>
-    <link href="http://tech.namshi.com/blog/2014/06/27/clusterjs-clusterify-your-nodejs-applications-and-achieve-zero-downtime-deployments/"/>
+    <link href="http://namshi.github.io/blog/2014/06/27/clusterjs-clusterify-your-nodejs-applications-and-achieve-zero-downtime-deployments/"/>
     <updated>2014-06-27T00:45:00+04:00</updated>
-    <id>http://tech.namshi.com/blog/2014/06/27/clusterjs-clusterify-your-nodejs-applications-and-achieve-zero-downtime-deployments</id>
+    <id>http://namshi.github.io/blog/2014/06/27/clusterjs-clusterify-your-nodejs-applications-and-achieve-zero-downtime-deployments</id>
     <content type="html"><![CDATA[<p>NodeJS has a very nice built-in support for clusters
 through its native <a href="http://nodejs.org/api/cluster.html">cluster module</a>:
 by using it and realizing we wanted to achieve zero-downtime
@@ -341,9 +341,9 @@ feel free to have a look around, as
   
   <entry>
     <title type="html"><![CDATA[Reconfig: declarative JavaScript configurations]]></title>
-    <link href="http://tech.namshi.com/blog/2014/06/07/reconfi-declarative-javascript-configurations/"/>
+    <link href="http://namshi.github.io/blog/2014/06/07/reconfi-declarative-javascript-configurations/"/>
     <updated>2014-06-07T00:50:00+04:00</updated>
-    <id>http://tech.namshi.com/blog/2014/06/07/reconfi-declarative-javascript-configurations</id>
+    <id>http://namshi.github.io/blog/2014/06/07/reconfi-declarative-javascript-configurations</id>
     <content type="html"><![CDATA[<p>We recently published a new library that let&rsquo;s you
 deal with configurations, in JavaScript, in a very
 elegant way.</p>
@@ -424,9 +424,9 @@ PHP (another big player in our stack) so&hellip;stay tuned!</p>
   
   <entry>
     <title type="html"><![CDATA[Newsletter #37]]></title>
-    <link href="http://tech.namshi.com/blog/2014/05/08/newsletter-number-37/"/>
+    <link href="http://namshi.github.io/blog/2014/05/08/newsletter-number-37/"/>
     <updated>2014-05-08T16:47:00+04:00</updated>
-    <id>http://tech.namshi.com/blog/2014/05/08/newsletter-number-37</id>
+    <id>http://namshi.github.io/blog/2014/05/08/newsletter-number-37</id>
     <content type="html"><![CDATA[<p>It&rsquo;s <strong>TechThursday</strong> again: here&rsquo;s what we&rsquo;ve been excited about over the past week!</p>
 
 <ul>

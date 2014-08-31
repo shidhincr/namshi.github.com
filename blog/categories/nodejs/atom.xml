@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: nodejs | Tech @ Namshi.com]]></title>
-  <link href="http://tech.namshi.com/blog/categories/nodejs/atom.xml" rel="self"/>
-  <link href="http://tech.namshi.com/"/>
-  <updated>2014-08-22T20:02:52+04:00</updated>
-  <id>http://tech.namshi.com/</id>
+  <link href="http://namshi.github.io/blog/categories/nodejs/atom.xml" rel="self"/>
+  <link href="http://namshi.github.io/"/>
+  <updated>2014-08-31T21:53:05+04:00</updated>
+  <id>http://namshi.github.io/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
     
@@ -14,10 +14,115 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Newsletter #53]]></title>
+    <link href="http://namshi.github.io/blog/2014/08/28/newsletter-number-53/"/>
+    <updated>2014-08-28T16:11:00+04:00</updated>
+    <id>http://namshi.github.io/blog/2014/08/28/newsletter-number-53</id>
+    <content type="html"><![CDATA[<blockquote><p><strong>BOOM!</strong> As mentioned in the last newsletter, we were working on four new open souce libraries and two of them are already out !!!</p>
+
+<ul>
+<li><p><a href="https://github.com/namshi/shisha"><strong>shisha, smoke tests made easy!</strong></a> A cool nodejs library by <a href="http://tech.namshi.com/team/#Shidhin%20CR">Shidhin</a> and <a href="http://tech.namshi.com/team/#Mohamad%20Hallal">Hallal</a> that let&rsquo;s you
+write smoke tests in an easy way.</p></li>
+<li><p><a href="https://github.com/namshi/node-dock"><strong>node-dock, a sweet remedy for all your docker problems!</strong></a> Another node library by <a href="http://tech.namshi.com/team/#Hossam%20Faris">Hossam</a> and <a href="http://tech.namshi.com/team/##Luciano%20Colosio">Lucio</a> that
+has an handy command (dock) that plugs on top of your usual docker commands adding some sugar and some handy functionality on top of it.</p></li>
+<li><p>Even <a href="http://tech.namshi.com/team/#Alessandro%20Nadalin">Alex</a> released another tiny and cool node lib called <a href="http://tech.namshi.com/blog/2014/08/22/node-file-ensure-a-small-filesystem-utility-to-make-sure-a-file-is-there/"><strong>node-file-ensure</strong>, a small filesystem utility to make sure a file is there</a></p></li>
+<li><p>Lucio also wrote a post detailing his first months here at Namshi: <a href="http://tech.namshi.com/blog/2014/08/27/so-far-dot-dot-dot-so-fun/">check it out</a>!</p></li>
+<li><p>Last but not least, <a href="http://tech.namshi.com/team/#Geshan%20Manandhar">Geshan</a> on his vacation back home, has improvised this talk at PHP Developers Meetup Nepal on message queues (AMQP) with RabbitMQ and Symfony <a href="http://mq-talk.herokuapp.com/">http://mq-talk.herokuapp.com/</a></p></li>
+</ul>
+</blockquote>
+
+<p>And here we are as usual with a list of interesting links to keep you busy during the upcoming weekend:</p>
+
+<ul>
+<li><p><a href="https://github.com/OptimalBits/redbird">A modern reverse proxy for node</a></p></li>
+<li><p><a href="http://buff.ly/1nEYH2M">Open Source ain’t Charity</a></p></li>
+<li><p><a href="https://speakerdeck.com/patrickhamann/ship-it-re-develop-conference-august-2014">Ship it! A story of continuous delivery at theguardian.com</a></p></li>
+<li><p><a href="https://www.gov.uk/service-manual/agile/running-retrospectives.html">Reviewing a team&rsquo;s work and the way it is done at Gov.uk Design Services</a></p></li>
+<li><p><a href="http://buff.ly/1wDTrGe">Plain Old #JavaScript Object Visualization</a></p></li>
+</ul>
+
+
+<!-- more -->
+
+
+<ul>
+<li><p><a href="http://t.co/eDh0CeQYpA">Stop whatever you are doing and look at p6 of this paper</a></p></li>
+<li><p><a href="http://buff.ly/1lrfCus">Rocket Internet co-founder sees venture take off in Middle East</a></p></li>
+<li><p><a href="http://buff.ly/1q9KvDq">V8&rsquo;s memory mysteries</a></p></li>
+<li><p><a href="http://buff.ly/1sh7Lhn">49ers’ stadium Wi-Fi served 25,000 concurrent users, 2.13TB in all</a></p></li>
+<li><p><a href="http://buff.ly/1mA3a6D">Software Developers and Asperger&rsquo;s Syndrome</a></p></li>
+<li><p><a href="http://buff.ly/1v8pUmg">Docker Service Discovery Using Etcd and Haproxy</a></p></li>
+<li><p><a href="http://buff.ly/1tqNB7a">Stellar: Fast database snapshot and restore tool for development</a></p></li>
+<li><p><a href="http://buff.ly/1seRoll">Javascript optimization killers</a></p></li>
+<li><p><a href="http://buff.ly/1mz2vlT">How I Hacked My Husband&rsquo;s Programming Addiction</a></p></li>
+<li><p><a href="http://mq-talk.herokuapp.com/#/14">programmming mantras to remember</a></p></li>
+<li><p><a href="http://buff.ly/1myYCxx">Facebook Unveils Its Load-Balancing System: Autoscale</a></p></li>
+<li><p><a href="http://buff.ly/1wiCeln">Docker 1.2.0, with restart policies</a></p></li>
+<li><p><a href="http://buff.ly/1lmw8vT">Semantic Versioning Is Not the Solution</a></p></li>
+<li><p><a href="http://buff.ly/1mtjtSS">The Plague of Methods and Frameworks</a></p></li>
+<li><p><a href="http://buff.ly/1s2pxot">Evolution of Docker and Its Impact on AWS &ndash; i build the cloud</a></p></li>
+<li><p><a href="http://buff.ly/1s2p4Cu">Uber opens up its API – and creates a new platform</a></p></li>
+<li><p><a href="https://www.glasswire.com">GlassWire Network Security Monitor &amp; Firewall Tool</a></p></li>
+<li><p><a href="https://netguru.co/blog/posts/procrastination-and-overcoming-programmers-block">Procrastination and Overcoming Programmer&rsquo;s Block</a></p></li>
+<li><p><a href="http://algorithm.dk/posts/rtfm-0day-in-ios-apps-g-gmail-fb-messenger-etc">RTFM 0day in iOS apps: G+, Gmail, FB Messenger</a></p></li>
+<li><p><a href="http://www.codefights.com">CodeFights &ndash; Become a Code Champion</a></p></li>
+<li><p><a href="http://hoa-project.net/En/">Hoa project, a cool set of PHP lib (they deserve more community involvement &ndash; i.e. tests are missing, own standards)</a></p></li>
+<li><p><a href="http://code.tutsplus.com/tutorials/bubblejs-a-16k-solution-to-a-common-problem--cms-21986">Bubble.js: A 1.6K Solution to a Common Problem</a></p></li>
+<li><p><a href="http://knplabs.com/blog/2011/05/17/agile-nodejs/">We love Symfony2… but we also love Agility and Node.js</a></p></li>
+<li><p><a href="http://www.codeproject.com/Articles/604417/Agile-software-development-methodologies-and-how-t">Agile software development methodologies and how to apply them</a></p></li>
+<li><p><a href="http://lafikl.github.io/perfBar/">website performance metrics</a></p></li>
+<li><p><a href="https://github.com/OptimalBits/redbird">A modern reverse proxy for node</a></p></li>
+<li><p><a href="http://mobileangularui.com/">Mobile Angular UI</a></p></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Newsletter #52]]></title>
+    <link href="http://namshi.github.io/blog/2014/08/21/newsletter-number-52/"/>
+    <updated>2014-08-21T12:37:00+04:00</updated>
+    <id>http://namshi.github.io/blog/2014/08/21/newsletter-number-52</id>
+    <content type="html"><![CDATA[<blockquote><p>As you know the IT team loves opensource and the idea <a href="http://github.com/namshi">to give back to the &ldquo;community&rdquo;</a>! <br />
+That&rsquo;s why on Tuesday evening we did an internal hackathon, we bootstrapped four open source projects that we are going to release soon, <br /> stay tuned!<br />
+<a href="http://tech.namshi.com/team/#Luciano%20Colosio">Lucio</a>, our Nodejs maniac, introduced the team to node&rsquo;s history:</p></blockquote>
+
+<p><img class="center" src="/images/posts/lucio-node-presentation.png" width="800" title="result" ></p>
+
+<p>Below the usual list of interesting links we found this week:</p>
+
+<ul>
+<li><p><a href="http://buff.ly/1z2jZga">On Sexual Harassment in the Tech Industry</a></p></li>
+<li><p><a href="http://buff.ly/1pYrQJF">Promoting Symfony: One step at a time</a></p></li>
+<li><p><a href="http://buff.ly/YsjYqC">Token-base AngularJS auth</a></p></li>
+<li><p><a href="http://buff.ly/1vZZGUm">Welcoming the Orchard and Fig team in Docker</a></p></li>
+<li><p><a href="http://buff.ly/1ptfB8L">HTTP Shaming</a></p></li>
+</ul>
+
+
+<!-- more -->
+
+
+<ul>
+<li><p><a href="http://elnur.pro/symfony-without-bundles/">Symfony without bundles, an interesting approach</a></p></li>
+<li><p><a href="http://labs.qandidate.com/blog/2014/08/18/a-new-feature-toggling-library-for-php/">A new feature toggling library for PHP</a></p></li>
+<li><p><a href="http://buff.ly/1psgj62">Understanding process.nextTick() &ndash; How To Node</a></p></li>
+<li><p><a href="http://gwendall.github.io/way/">Way.JS: Simple, lightweight, persistent two-way databinding</a></p></li>
+<li><p><a href="http://bjorn.tipling.com/state-and-regular-expressions-in-javascript">What you should know about JavaScript regular expressions</a></p></li>
+<li><p><a href="http://fdietz.github.io/recipes-with-angular-js/">Recipes with Angular.js</a></p></li>
+<li><p><a href="https://github.com/krakjoe/pthreads">Threading for PHP &ndash; Share Nothing, Do Everything :)</a></p></li>
+<li><p><a href="https://github.com/propelorm/Propel2">Propel2 (ORM) for PHP 5.4</a></p></li>
+<li><p><a href="http://taskjs.org/">generators + promises = tasks</a></p></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Newsletter #48]]></title>
-    <link href="http://tech.namshi.com/blog/2014/07/24/newsletter-number-48/"/>
+    <link href="http://namshi.github.io/blog/2014/07/24/newsletter-number-48/"/>
     <updated>2014-07-24T12:03:00+04:00</updated>
-    <id>http://tech.namshi.com/blog/2014/07/24/newsletter-number-48</id>
+    <id>http://namshi.github.io/blog/2014/07/24/newsletter-number-48</id>
     <content type="html"><![CDATA[<p>Guess what? TechThursday is here!</p>
 
 <blockquote><p><em>What happened this week in the Namshi Tech team?</em></p>
@@ -72,9 +177,9 @@ We will soon talk about it in a blog post, stay tuned and keep following <a href
   
   <entry>
     <title type="html"><![CDATA[Newsletter #47]]></title>
-    <link href="http://tech.namshi.com/blog/2014/07/17/newsletter-number-47/"/>
+    <link href="http://namshi.github.io/blog/2014/07/17/newsletter-number-47/"/>
     <updated>2014-07-17T12:03:00+04:00</updated>
-    <id>http://tech.namshi.com/blog/2014/07/17/newsletter-number-47</id>
+    <id>http://namshi.github.io/blog/2014/07/17/newsletter-number-47</id>
     <content type="html"><![CDATA[<p>TechThursday is here!</p>
 
 <blockquote><p><em>What happened this week in the Namshi Tech team?</em></p>
@@ -131,9 +236,9 @@ We will soon talk about it in a blog post, stay tuned and keep following <a href
   
   <entry>
     <title type="html"><![CDATA[Where in the world is Carmen San Diego?]]></title>
-    <link href="http://tech.namshi.com/blog/2014/06/24/where-in-the-world-is-carmen-san-diego/"/>
+    <link href="http://namshi.github.io/blog/2014/06/24/where-in-the-world-is-carmen-san-diego/"/>
     <updated>2014-06-24T23:20:00+04:00</updated>
-    <id>http://tech.namshi.com/blog/2014/06/24/where-in-the-world-is-carmen-san-diego</id>
+    <id>http://namshi.github.io/blog/2014/06/24/where-in-the-world-is-carmen-san-diego</id>
     <content type="html"><![CDATA[<p>The team at Namshi is always on the go with some new open source project
 that lights up our weekends or solves some of the small dilemmas we daily
 face at work.</p>
@@ -149,135 +254,6 @@ it lets you visualize your 4Square checkins on a map
 and it has been written in his beloved NodeJS.</p>
 
 <p>Kudos to Lucio for releasing his work and&hellip;   &hellip;more to come!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Reconfig: declarative JavaScript configurations]]></title>
-    <link href="http://tech.namshi.com/blog/2014/06/07/reconfi-declarative-javascript-configurations/"/>
-    <updated>2014-06-07T00:50:00+04:00</updated>
-    <id>http://tech.namshi.com/blog/2014/06/07/reconfi-declarative-javascript-configurations</id>
-    <content type="html"><![CDATA[<p>We recently published a new library that let&rsquo;s you
-deal with configurations, in JavaScript, in a very
-elegant way.</p>
-
-<p>The library is called <a href="https://github.com/namshi/reconfig">Reconfig</a> and it&rsquo;s available
-through <a href="https://www.npmjs.org/package/reconfig">NPM</a> (if you need on the browser we highly
-recommend <a href="http://browserify.org/">browserify</a>): it&rsquo;s really
-small and simple, and thought to keep your
-configuration as elegant, simple and declarative as possible.</p>
-
-<!-- more -->
-
-
-<p>With reconfig you can do stuff like:</p>
-
-<p><div class='bogus-wrapper'><notextile><figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-<span class='line-number'>20</span>
-<span class='line-number'>21</span>
-<span class='line-number'>22</span>
-<span class='line-number'>23</span>
-<span class='line-number'>24</span>
-<span class='line-number'>25</span>
-<span class='line-number'>26</span>
-<span class='line-number'>27</span>
-<span class='line-number'>28</span>
-</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">var</span> <span class="nx">reconfig</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="o">&amp;</span><span class="nx">lsquo</span><span class="p">;</span><span class="nx">reconfig</span><span class="o">&amp;</span><span class="nx">rsquo</span><span class="p">;);</span><span class="o">&lt;</span><span class="err">/p&gt;</span>
-</span><span class='line'>
-</span><span class='line'><span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span><span class="kd">var</span> <span class="nx">config</span> <span class="o">=</span>  <span class="k">new</span> <span class="nx">reconfig</span><span class="p">({</span><span class="o">&lt;</span><span class="err">/p&gt;</span>
-</span><span class='line'>
-</span><span class='line'><span class="o">&lt;</span><span class="nx">pre</span><span class="o">&gt;&lt;</span><span class="nx">code</span><span class="o">&gt;</span><span class="nx">greet</span><span class="o">:</span> <span class="s1">&#39;Hello :who!&#39;</span><span class="p">,</span>
-</span><span class='line'><span class="nx">sayhi</span><span class="o">:</span> <span class="s1">&#39;{{ greet }}&#39;</span>
-</span><span class='line'><span class="nx">countries</span><span class="o">:</span> <span class="p">{</span>
-</span><span class='line'>    <span class="nx">uae</span><span class="o">:</span> <span class="p">{</span>
-</span><span class='line'>        <span class="nx">population</span><span class="o">:</span> <span class="s1">&#39;2M&#39;</span><span class="p">,</span>
-</span><span class='line'>        <span class="nx">nationalDay</span><span class="o">:</span> <span class="s1">&#39;December 2nd&#39;</span>
-</span><span class='line'>    <span class="p">}</span>
-</span><span class='line'>    <span class="c1">// ...</span>
-</span><span class='line'><span class="p">}</span>
-</span><span class='line'><span class="o">&lt;</span><span class="err">/code&gt;&lt;/pre&gt;</span>
-</span><span class='line'>
-</span><span class='line'><span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span><span class="p">});</span><span class="o">&lt;</span><span class="err">/p&gt;</span>
-</span><span class='line'>
-</span><span class='line'><span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span><span class="c1">// Retrieve a deep config value</span>
-</span><span class='line'><span class="nx">config</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="o">&amp;</span><span class="nx">lsquo</span><span class="p">;</span><span class="nx">countries</span><span class="p">.</span><span class="nx">uae</span><span class="p">.</span><span class="nx">nationalDay</span><span class="o">&amp;</span><span class="nx">rsquo</span><span class="p">;);</span> <span class="c1">// December, 2nd&lt;/p&gt;</span>
-</span><span class='line'>
-</span><span class='line'><span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span><span class="c1">// Pass parameters to the configuration</span>
-</span><span class='line'><span class="nx">config</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="o">&amp;</span><span class="nx">lsquo</span><span class="p">;</span><span class="nx">greet</span><span class="o">&amp;</span><span class="nx">rsquo</span><span class="p">;,</span> <span class="p">{</span><span class="nx">who</span><span class="o">:</span> <span class="o">&amp;</span><span class="nx">lsquo</span><span class="p">;</span><span class="nx">John</span><span class="o">&amp;</span><span class="nx">rsquo</span><span class="p">;});</span> <span class="c1">// Hello, John!&lt;/p&gt;</span>
-</span><span class='line'>
-</span><span class='line'><span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span><span class="c1">// Reference other configuration parameters</span>
-</span><span class='line'><span class="nx">config</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="o">&amp;</span><span class="nx">lsquo</span><span class="p">;</span><span class="nx">sayhi</span><span class="o">&amp;</span><span class="nx">rsquo</span><span class="p">;,</span> <span class="p">{</span><span class="nx">who</span><span class="o">:</span> <span class="o">&amp;</span><span class="nx">lsquo</span><span class="p">;</span><span class="nx">John</span><span class="o">&amp;</span><span class="nx">rsquo</span><span class="p">;});</span> <span class="c1">// Hello, John!&lt;/p&gt;</span>
-</span><span class='line'>
-</span><span class='line'><span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span><span class="c1">// Fallback values</span>
-</span><span class='line'><span class="nx">config</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="o">&amp;</span><span class="nx">lsquo</span><span class="p">;</span><span class="nx">something</span><span class="o">&amp;</span><span class="nx">rsquo</span><span class="p">;,</span> <span class="p">{},</span> <span class="o">&amp;</span><span class="nx">lsquo</span><span class="p">;</span><span class="nx">invalid</span><span class="o">&amp;</span><span class="nx">rsquo</span><span class="p">;);</span> <span class="c1">// invalid</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
-
-<p>We&rsquo;re probably gonna look into porting the same to
-PHP (another big player in our stack) so&hellip;stay tuned!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Newsletter #40]]></title>
-    <link href="http://tech.namshi.com/blog/2014/05/29/newsletter-number-40/"/>
-    <updated>2014-05-29T12:45:00+04:00</updated>
-    <id>http://tech.namshi.com/blog/2014/05/29/newsletter-number-40</id>
-    <content type="html"><![CDATA[<p><strong>TA-DA! TechThursday</strong> newsletter is here!</p>
-
-<ul>
-<li><p><a href="http://www.html5rocks.com/en/tutorials/es7/observe">Object.observe will change everything you know about data binding. It&rsquo;s the future.</a></p></li>
-<li><p><a href="http://beta.slashdot.org/story/202599">PHP Next Generation</a></p></li>
-<li><p><strong>SOLID</strong>: Single Responsibility (SRP), Open/Close, Liskov&rsquo;s Substitution, Interface Segregation, and Dependency Inversion.<br />
-  Five principles that should guide you every time you write code.
-  <a href="http://code.tutsplus.com/tutorials/solid-part-1-the-single-responsibility-principle--net-36074">Part#1</a>,
-  <a href="http://code.tutsplus.com/tutorials/solid-part-2-the-openclosed-principle--net-36600">Part#2</a>,
-  <a href="http://code.tutsplus.com/tutorials/solid-part-3-liskov-substitution-interface-segregation-principles--net-36710">Part#3</a>,
-  <a href="http://code.tutsplus.com/tutorials/solid-part-4-the-dependency-inversion-principle--net-36872">Part#4</a></p></li>
-</ul>
-
-
-<!-- more -->
-
-
-<ul>
-<li><p><a href="http://www.infoworld.com/slideshow/153868/20-cool-things-you-can-do-raspberry-pi-243042">20 cool things you can do with a Raspberry Pi</a></p></li>
-<li><p><a href="http://www.pcworld.com/article/2159160/mit-tackled-earths-atmosphere-to-give-the-moon-broadband.html">MIT tackled Earth&rsquo;s atmosphere to give the moon broadband</a></p></li>
-<li><p><a href="http://unix.stackexchange.com/questions/8916/when-should-i-not-kill-9-a-process">When should I not kill -9 a process?</a></p></li>
-<li><p><a href="http://blog.workhere.io/googlebots-recent-improvements-might-revolutionize-web-development/">Google Bot’s Recent improvements might revolutionize web development</a></p></li>
-<li><p><a href="https://github.com/mapmeld/gitjk#gitjk">Undo what you just did in Git</a></p></li>
-<li><p><a href="http://wildlyinaccurate.com/a-hackers-guide-to-git">A hacker’s Guide to Git</a></p></li>
-<li><p><a href="http://www.bennadel.com/blog/2631-workflow-differences-between-scope-watch-and-attributes-observe-in-angularjs.htm">Understanding the difference between $scope.$watch() and Attributes.$observe() in AngularJS</a></p></li>
-<li><p><a href="http://www.20thingsilearned.com/en-US">20 Things I learned about browser and web: An interactive book by Google</a></p></li>
-<li><p><a href="http://www.stevesouders.com/blog/2014/02/11/measuring-localstorage-performance/">Measuring the performance of local storage</a></p></li>
-<li><p><a href="http://www.snopes.com/music/artists/vanhalen.asp">Van Halen&rsquo;s smart contract clauses</a></p></li>
-<li><p><a href="https://aws.amazon.com/blogs/aws/protect-your-data-with-new-ebs-encryption">AWS introduces additional EBS encryption</a></p></li>
-<li><p><a href="http://www.polygon.com/features/2014/5/13/5542406/qatar-girnaas-giddam">Making games in Qatar</a></p></li>
-<li><p><a href="http://loopback.io">LoopBack, a new NodeJS framework</a></p></li>
-<li><p><a href="http://gizmodo.com/5903827/the-humble-origins-of-the-html-blink-tag">How was the HTML blink tag born?</a></p></li>
-<li><p><a href="https://github.com/cargomedia/vagrant-phpstorm-tunnel">Vagrant PhpStorm Tunnel, a cool vagrant plugin that it will forward all php calls to php in the Vagrant VM</a></p></li>
-<li><p><a href="https://news.ycombinator.com/item?id=7806908">The new iteration of PHP (read the comments)</a> (for more drama you can read <a href="http://grokbase.com/t/php/php-internals/1455aesx7r/phpng-%04refactored-php-engine-with-big-performance-improvement/nested/page/3">internals discussion on PHPNG</a>)</p></li>
-<li><p><a href="http://code.tutsplus.com/series/data-structures-succinctly-part-1--cms-551">Data Structures Succinctly ebook</a></p></li>
-<li><p><a href="http://code.tutsplus.com/tutorials/the-repository-design-pattern--net-35804">The Repository Design Pattern (PHP)</a></p></li>
-</ul>
-
 ]]></content>
   </entry>
   

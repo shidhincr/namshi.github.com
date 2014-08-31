@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: hiring | Tech @ Namshi.com]]></title>
-  <link href="http://tech.namshi.com/blog/categories/hiring/atom.xml" rel="self"/>
-  <link href="http://tech.namshi.com/"/>
-  <updated>2014-08-22T20:02:52+04:00</updated>
-  <id>http://tech.namshi.com/</id>
+  <link href="http://namshi.github.io/blog/categories/hiring/atom.xml" rel="self"/>
+  <link href="http://namshi.github.io/"/>
+  <updated>2014-08-31T21:53:05+04:00</updated>
+  <id>http://namshi.github.io/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[We're hiring...actually, we're hiring MOAR!]]></title>
-    <link href="http://tech.namshi.com/blog/2014/08/13/were-hiring-dot-dot-dot-actually-were-hiring-moar/"/>
+    <link href="http://namshi.github.io/blog/2014/08/13/were-hiring-dot-dot-dot-actually-were-hiring-moar/"/>
     <updated>2014-08-13T12:14:00+04:00</updated>
-    <id>http://tech.namshi.com/blog/2014/08/13/were-hiring-dot-dot-dot-actually-were-hiring-moar</id>
+    <id>http://namshi.github.io/blog/2014/08/13/were-hiring-dot-dot-dot-actually-were-hiring-moar</id>
     <content type="html"><![CDATA[<p>Just an heads up that we are looking for talented
 engineers for our tech team, and our guys are very
 sad they don&rsquo;t have too many new friends!</p>
@@ -59,7 +59,7 @@ knowing how to build the presentation and logic behind a full
 frontend application (AngularJS, Node or something more spicy
 like <a href="http://www.polymer-project.org/">polymer</a>).</p>
 
-<blockquote><p>Drop us an email at <a href="&#109;&#97;&#x69;&#108;&#116;&#x6f;&#58;&#x77;&#x6f;&#x72;&#107;&#x2d;&#x69;&#110;&#45;&#116;&#101;&#99;&#104;&#64;&#x6e;&#97;&#x6d;&#x73;&#x68;&#105;&#46;&#x63;&#x6f;&#x6d;">&#x77;&#x6f;&#x72;&#107;&#x2d;&#x69;&#110;&#x2d;&#x74;&#x65;&#99;&#x68;&#64;&#x6e;&#x61;&#x6d;&#x73;&#x68;&#x69;&#46;&#x63;&#111;&#109;</a> to apply or simply
+<blockquote><p>Drop us an email at <a href="&#109;&#x61;&#105;&#108;&#116;&#111;&#x3a;&#x77;&#x6f;&#114;&#107;&#x2d;&#105;&#x6e;&#x2d;&#x74;&#101;&#99;&#x68;&#x40;&#x6e;&#97;&#x6d;&#115;&#x68;&#105;&#x2e;&#99;&#111;&#x6d;">&#119;&#111;&#114;&#107;&#45;&#x69;&#110;&#45;&#116;&#x65;&#99;&#x68;&#x40;&#x6e;&#97;&#109;&#115;&#x68;&#x69;&#46;&#99;&#111;&#109;</a> to apply or simply
 get more informations about this job opening!</p></blockquote>
 
 <h2>Sitting on an empty (sysadmin) chair&hellip;</h2>
@@ -86,7 +86,7 @@ our configurations, and would like someone who can get his/her
 hands dirty with both programming and system administration
 to help the team.</p>
 
-<blockquote><p>Drop us an email at <a href="&#109;&#x61;&#x69;&#108;&#116;&#x6f;&#58;&#x77;&#111;&#x72;&#107;&#x2d;&#x69;&#110;&#x2d;&#116;&#x65;&#99;&#x68;&#64;&#110;&#97;&#x6d;&#x73;&#104;&#105;&#x2e;&#99;&#x6f;&#x6d;">&#119;&#111;&#x72;&#107;&#45;&#x69;&#x6e;&#45;&#116;&#x65;&#99;&#104;&#64;&#x6e;&#97;&#x6d;&#x73;&#x68;&#x69;&#46;&#x63;&#111;&#x6d;</a> to apply or simply
+<blockquote><p>Drop us an email at <a href="&#x6d;&#97;&#x69;&#108;&#116;&#x6f;&#58;&#x77;&#111;&#114;&#x6b;&#45;&#105;&#110;&#x2d;&#116;&#x65;&#99;&#x68;&#64;&#x6e;&#97;&#109;&#115;&#104;&#x69;&#x2e;&#99;&#x6f;&#x6d;">&#x77;&#x6f;&#x72;&#107;&#x2d;&#x69;&#110;&#x2d;&#116;&#101;&#x63;&#104;&#64;&#x6e;&#97;&#x6d;&#115;&#x68;&#105;&#x2e;&#x63;&#x6f;&#x6d;</a> to apply or simply
 get more informations about this job opening!</p></blockquote>
 
 <h2>I don&rsquo;t know if he&rsquo;s crying because of loneliness or because of NodeJS&hellip;</h2>
@@ -114,7 +114,7 @@ if we get someone that has been in a few different battlefields :)</p>
 code (or, even better: first solves the problem, then writes the
 test, then the code :-D).</p>
 
-<blockquote><p>Drop us an email at <a href="&#109;&#x61;&#x69;&#108;&#116;&#x6f;&#58;&#119;&#x6f;&#114;&#x6b;&#x2d;&#105;&#110;&#45;&#x74;&#101;&#99;&#x68;&#64;&#110;&#97;&#x6d;&#115;&#x68;&#105;&#x2e;&#99;&#111;&#x6d;">&#x77;&#111;&#x72;&#107;&#x2d;&#x69;&#x6e;&#x2d;&#x74;&#101;&#x63;&#104;&#64;&#x6e;&#97;&#109;&#115;&#104;&#105;&#x2e;&#x63;&#x6f;&#x6d;</a> to apply or simply
+<blockquote><p>Drop us an email at <a href="&#109;&#x61;&#x69;&#x6c;&#116;&#111;&#x3a;&#x77;&#x6f;&#114;&#x6b;&#x2d;&#x69;&#110;&#x2d;&#116;&#x65;&#x63;&#x68;&#x40;&#110;&#97;&#x6d;&#x73;&#104;&#x69;&#x2e;&#x63;&#111;&#x6d;">&#119;&#111;&#114;&#107;&#45;&#x69;&#110;&#x2d;&#116;&#x65;&#x63;&#x68;&#64;&#110;&#97;&#109;&#115;&#x68;&#x69;&#x2e;&#99;&#x6f;&#x6d;</a> to apply or simply
 get more informations about this job opening!</p></blockquote>
 
 <h2>About Namshi</h2>
@@ -136,9 +136,9 @@ benefits in working with us, but to recap the most important ones:</p>
   
   <entry>
     <title type="html"><![CDATA[Wanna join us? We have cookies, Symfony2, Node, AngularJS and coding challenges for you!]]></title>
-    <link href="http://tech.namshi.com/blog/2014/06/08/wanna-join-us-we-have-cookies-symfony2-node-angularjs-and-coding-challenges-for-you/"/>
+    <link href="http://namshi.github.io/blog/2014/06/08/wanna-join-us-we-have-cookies-symfony2-node-angularjs-and-coding-challenges-for-you/"/>
     <updated>2014-06-08T11:44:00+04:00</updated>
-    <id>http://tech.namshi.com/blog/2014/06/08/wanna-join-us-we-have-cookies-symfony2-node-angularjs-and-coding-challenges-for-you</id>
+    <id>http://namshi.github.io/blog/2014/06/08/wanna-join-us-we-have-cookies-symfony2-node-angularjs-and-coding-challenges-for-you</id>
     <content type="html"><![CDATA[<p>A quick update from the trenches: for the past months
 we&rsquo;ve been beefing our team up and by doing so we
 realized that some good coding challenges are
@@ -158,9 +158,9 @@ got leads? Got skills? Reach out and let&rsquo;s do Service-Oriented Architectur
   
   <entry>
     <title type="html"><![CDATA[Newsletter #41]]></title>
-    <link href="http://tech.namshi.com/blog/2014/06/05/newsletter-number-41/"/>
+    <link href="http://namshi.github.io/blog/2014/06/05/newsletter-number-41/"/>
     <updated>2014-06-05T12:03:00+04:00</updated>
-    <id>http://tech.namshi.com/blog/2014/06/05/newsletter-number-41</id>
+    <id>http://namshi.github.io/blog/2014/06/05/newsletter-number-41</id>
     <content type="html"><![CDATA[<p>Hi fellas, it&rsquo;s #techThursday an here we are with the usual list of interesting topics and resources for the upcoming weekend!</p>
 
 <p>We publish several blog posts in the latest weeks, to be up-to-date just follow us on <a href="http://twitter.com/TechNamshi">twitter</a>.</p>
@@ -194,9 +194,9 @@ got leads? Got skills? Reach out and let&rsquo;s do Service-Oriented Architectur
   
   <entry>
     <title type="html"><![CDATA[Like Android and iOS? Let's change shopping in the Middle East together!]]></title>
-    <link href="http://tech.namshi.com/blog/2014/06/03/like-android-and-ios-lets-change-shopping-in-the-middle-east-together/"/>
+    <link href="http://namshi.github.io/blog/2014/06/03/like-android-and-ios-lets-change-shopping-in-the-middle-east-together/"/>
     <updated>2014-06-03T16:42:00+04:00</updated>
-    <id>http://tech.namshi.com/blog/2014/06/03/like-android-and-ios-lets-change-shopping-in-the-middle-east-together</id>
+    <id>http://namshi.github.io/blog/2014/06/03/like-android-and-ios-lets-change-shopping-in-the-middle-east-together</id>
     <content type="html"><![CDATA[<p>Do you like Java? Ok, I possibly started from the wrongest question.</p>
 
 <p>Restart.</p>

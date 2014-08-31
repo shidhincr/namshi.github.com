@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: browserify | Tech @ Namshi.com]]></title>
-  <link href="http://tech.namshi.com/blog/categories/browserify/atom.xml" rel="self"/>
-  <link href="http://tech.namshi.com/"/>
-  <updated>2014-08-22T20:02:52+04:00</updated>
-  <id>http://tech.namshi.com/</id>
+  <link href="http://namshi.github.io/blog/categories/browserify/atom.xml" rel="self"/>
+  <link href="http://namshi.github.io/"/>
+  <updated>2014-08-31T21:53:05+04:00</updated>
+  <id>http://namshi.github.io/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Reconfig: declarative JavaScript configurations]]></title>
-    <link href="http://tech.namshi.com/blog/2014/06/07/reconfi-declarative-javascript-configurations/"/>
+    <link href="http://namshi.github.io/blog/2014/06/07/reconfi-declarative-javascript-configurations/"/>
     <updated>2014-06-07T00:50:00+04:00</updated>
-    <id>http://tech.namshi.com/blog/2014/06/07/reconfi-declarative-javascript-configurations</id>
+    <id>http://namshi.github.io/blog/2014/06/07/reconfi-declarative-javascript-configurations</id>
     <content type="html"><![CDATA[<p>We recently published a new library that let&rsquo;s you
 deal with configurations, in JavaScript, in a very
 elegant way.</p>

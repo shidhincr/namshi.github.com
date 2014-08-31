@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Open Source | Tech @ Namshi.com]]></title>
-  <link href="http://tech.namshi.com/blog/categories/open-source/atom.xml" rel="self"/>
-  <link href="http://tech.namshi.com/"/>
-  <updated>2014-08-22T20:02:52+04:00</updated>
-  <id>http://tech.namshi.com/</id>
+  <link href="http://namshi.github.io/blog/categories/open-source/atom.xml" rel="self"/>
+  <link href="http://namshi.github.io/"/>
+  <updated>2014-08-31T21:53:05+04:00</updated>
+  <id>http://namshi.github.io/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[node-file-ensure, a small filesystem utility to make sure a file is there]]></title>
-    <link href="http://tech.namshi.com/blog/2014/08/22/node-file-ensure-a-small-filesystem-utility-to-make-sure-a-file-is-there/"/>
+    <link href="http://namshi.github.io/blog/2014/08/22/node-file-ensure-a-small-filesystem-utility-to-make-sure-a-file-is-there/"/>
     <updated>2014-08-22T19:42:00+04:00</updated>
-    <id>http://tech.namshi.com/blog/2014/08/22/node-file-ensure-a-small-filesystem-utility-to-make-sure-a-file-is-there</id>
+    <id>http://namshi.github.io/blog/2014/08/22/node-file-ensure-a-small-filesystem-utility-to-make-sure-a-file-is-there</id>
     <content type="html"><![CDATA[<p>This weekend we&rsquo;ve come up with a small utility
 that will make our life easier, and hopefully <strong>yours</strong>
 as well!</p>

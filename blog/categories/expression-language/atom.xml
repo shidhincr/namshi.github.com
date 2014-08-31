@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Expression Language | Tech @ Namshi.com]]></title>
-  <link href="http://tech.namshi.com/blog/categories/expression-language/atom.xml" rel="self"/>
-  <link href="http://tech.namshi.com/"/>
-  <updated>2014-08-22T20:02:52+04:00</updated>
-  <id>http://tech.namshi.com/</id>
+  <link href="http://namshi.github.io/blog/categories/expression-language/atom.xml" rel="self"/>
+  <link href="http://namshi.github.io/"/>
+  <updated>2014-08-31T21:53:05+04:00</updated>
+  <id>http://namshi.github.io/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Symfony 2.4 Expression Language]]></title>
-    <link href="http://tech.namshi.com/blog/2014/02/21/symfony2-dot-4-expression-language/"/>
+    <link href="http://namshi.github.io/blog/2014/02/21/symfony2-dot-4-expression-language/"/>
     <updated>2014-02-21T12:57:00+04:00</updated>
-    <id>http://tech.namshi.com/blog/2014/02/21/symfony2-dot-4-expression-language</id>
+    <id>http://namshi.github.io/blog/2014/02/21/symfony2-dot-4-expression-language</id>
     <content type="html"><![CDATA[<p>Expression Language is a new awesome component that got released in the latest <a href="http://symfony.com/blog/symfony-2-4-0-released">Symfony2.4</a>. This component allows string expressions
 to be parsed, compiled and evaluated in PHP. It was basically extracted from the Twig library that supports writing expression logic in templates.</p>
 
