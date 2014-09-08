@@ -4,7 +4,7 @@
   <title><![CDATA[Category: conference | Tech @ Namshi.com]]></title>
   <link href="http://namshi.github.io/blog/categories/conference/atom.xml" rel="self"/>
   <link href="http://namshi.github.io/"/>
-  <updated>2014-09-04T12:01:55+04:00</updated>
+  <updated>2014-09-08T21:57:32+04:00</updated>
   <id>http://namshi.github.io/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
@@ -12,6 +12,35 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[A bit of Namshi at the Symfony Live this month!]]></title>
+    <link href="http://namshi.github.io/blog/2014/09/08/a-bit-of-namshi-at-the-symfony-live-this-month/"/>
+    <updated>2014-09-08T21:41:00+04:00</updated>
+    <id>http://namshi.github.io/blog/2014/09/08/a-bit-of-namshi-at-the-symfony-live-this-month</id>
+    <content type="html"><![CDATA[<p>Pretty excited that we are going to be present
+at the <a href="http://london2014.live.symfony.com/">Symfony Live</a>
+which will happen at the end of this month, in London.</p>
+
+<!-- more -->
+
+
+<p><a href="/team#mohamad%20hallal">Mohamad</a>, who has been quite
+productive lately &ndash; both with <a href="http://mohdhallal.github.io/">blogging</a>
+and releasing some open source libraries (like
+<a href="https://github.com/namshi/mockserver">mockserver</a> and <a href="https://github.com/namshi/shisha">shisha</a>) &ndash;
+has decided to take advantage of one of the bonuses that
+we are offering &mdash; tickets for conferences!</p>
+
+<p>He will have the chance to get to meet the leaders in the
+PHP community in one of the most amazing conferences the
+PHP panorama can offer.</p>
+
+<p>We wish Hallal a safe trip to the United Kingdom
+and we hope he&rsquo;ll have a blast learning some new stuff
+and seeing a new place!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[A bit of Namshi at the 2014 AWS re:invent]]></title>

@@ -4,7 +4,7 @@
   <title><![CDATA[Tech @ Namshi.com]]></title>
   <link href="http://namshi.github.io/atom.xml" rel="self"/>
   <link href="http://namshi.github.io/"/>
-  <updated>2014-09-04T12:01:55+04:00</updated>
+  <updated>2014-09-08T21:57:32+04:00</updated>
   <id>http://namshi.github.io/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
@@ -12,6 +12,35 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[A bit of Namshi at the Symfony Live this month!]]></title>
+    <link href="http://namshi.github.io/blog/2014/09/08/a-bit-of-namshi-at-the-symfony-live-this-month/"/>
+    <updated>2014-09-08T21:41:00+04:00</updated>
+    <id>http://namshi.github.io/blog/2014/09/08/a-bit-of-namshi-at-the-symfony-live-this-month</id>
+    <content type="html"><![CDATA[<p>Pretty excited that we are going to be present
+at the <a href="http://london2014.live.symfony.com/">Symfony Live</a>
+which will happen at the end of this month, in London.</p>
+
+<!-- more -->
+
+
+<p><a href="http://namshi.github.io/team#mohamad%20hallal">Mohamad</a>, who has been quite
+productive lately &ndash; both with <a href="http://mohdhallal.github.io/">blogging</a>
+and releasing some open source libraries (like
+<a href="https://github.com/namshi/mockserver">mockserver</a> and <a href="https://github.com/namshi/shisha">shisha</a>) &ndash;
+has decided to take advantage of one of the bonuses that
+we are offering &mdash; tickets for conferences!</p>
+
+<p>He will have the chance to get to meet the leaders in the
+PHP community in one of the most amazing conferences the
+PHP panorama can offer.</p>
+
+<p>We wish Hallal a safe trip to the United Kingdom
+and we hope he&rsquo;ll have a blast learning some new stuff
+and seeing a new place!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Newsletter #54]]></title>
@@ -1141,7 +1170,7 @@ knowing how to build the presentation and logic behind a full
 frontend application (AngularJS, Node or something more spicy
 like <a href="http://www.polymer-project.org/">polymer</a>).</p>
 
-<blockquote><p>Drop us an email at <a href="&#109;&#x61;&#x69;&#108;&#116;&#x6f;&#x3a;&#119;&#x6f;&#114;&#x6b;&#45;&#105;&#x6e;&#x2d;&#116;&#101;&#x63;&#x68;&#64;&#110;&#x61;&#x6d;&#115;&#104;&#x69;&#x2e;&#x63;&#x6f;&#109;">&#x77;&#x6f;&#x72;&#107;&#45;&#x69;&#x6e;&#x2d;&#x74;&#101;&#x63;&#104;&#x40;&#110;&#x61;&#109;&#115;&#104;&#x69;&#x2e;&#99;&#x6f;&#109;</a> to apply or simply
+<blockquote><p>Drop us an email at <a href="&#x6d;&#x61;&#105;&#108;&#x74;&#111;&#x3a;&#x77;&#111;&#114;&#x6b;&#x2d;&#x69;&#x6e;&#45;&#x74;&#x65;&#x63;&#104;&#64;&#110;&#97;&#109;&#x73;&#x68;&#105;&#x2e;&#x63;&#x6f;&#x6d;">&#x77;&#x6f;&#x72;&#x6b;&#x2d;&#105;&#110;&#45;&#x74;&#101;&#99;&#104;&#64;&#110;&#x61;&#109;&#x73;&#x68;&#x69;&#x2e;&#x63;&#111;&#x6d;</a> to apply or simply
 get more informations about this job opening!</p></blockquote>
 
 <h2>Sitting on an empty (sysadmin) chair&hellip;</h2>
@@ -1168,7 +1197,7 @@ our configurations, and would like someone who can get his/her
 hands dirty with both programming and system administration
 to help the team.</p>
 
-<blockquote><p>Drop us an email at <a href="&#109;&#x61;&#105;&#x6c;&#x74;&#x6f;&#58;&#x77;&#111;&#114;&#107;&#x2d;&#105;&#x6e;&#45;&#x74;&#101;&#x63;&#104;&#x40;&#110;&#97;&#109;&#115;&#x68;&#105;&#x2e;&#99;&#x6f;&#109;">&#x77;&#x6f;&#x72;&#x6b;&#45;&#105;&#x6e;&#45;&#x74;&#x65;&#99;&#x68;&#64;&#110;&#97;&#x6d;&#x73;&#x68;&#105;&#46;&#99;&#111;&#109;</a> to apply or simply
+<blockquote><p>Drop us an email at <a href="&#109;&#x61;&#x69;&#108;&#x74;&#111;&#x3a;&#119;&#x6f;&#114;&#x6b;&#45;&#x69;&#x6e;&#45;&#x74;&#101;&#x63;&#104;&#x40;&#x6e;&#97;&#109;&#x73;&#x68;&#x69;&#x2e;&#99;&#x6f;&#x6d;">&#119;&#x6f;&#114;&#x6b;&#x2d;&#x69;&#x6e;&#45;&#116;&#101;&#x63;&#x68;&#64;&#110;&#x61;&#x6d;&#115;&#x68;&#105;&#46;&#99;&#x6f;&#109;</a> to apply or simply
 get more informations about this job opening!</p></blockquote>
 
 <h2>I don&rsquo;t know if he&rsquo;s crying because of loneliness or because of NodeJS&hellip;</h2>
@@ -1196,7 +1225,7 @@ if we get someone that has been in a few different battlefields :)</p>
 code (or, even better: first solves the problem, then writes the
 test, then the code :-D).</p>
 
-<blockquote><p>Drop us an email at <a href="&#109;&#97;&#x69;&#x6c;&#x74;&#111;&#58;&#x77;&#x6f;&#x72;&#107;&#45;&#x69;&#x6e;&#x2d;&#x74;&#101;&#x63;&#104;&#64;&#x6e;&#97;&#109;&#115;&#104;&#x69;&#46;&#99;&#x6f;&#109;">&#119;&#111;&#114;&#107;&#x2d;&#x69;&#110;&#x2d;&#116;&#x65;&#99;&#x68;&#x40;&#x6e;&#97;&#x6d;&#115;&#104;&#105;&#46;&#99;&#x6f;&#x6d;</a> to apply or simply
+<blockquote><p>Drop us an email at <a href="&#x6d;&#97;&#x69;&#108;&#x74;&#x6f;&#x3a;&#119;&#x6f;&#114;&#x6b;&#45;&#x69;&#110;&#x2d;&#116;&#101;&#x63;&#x68;&#64;&#110;&#x61;&#x6d;&#x73;&#x68;&#105;&#x2e;&#x63;&#x6f;&#109;">&#x77;&#111;&#114;&#107;&#45;&#105;&#110;&#45;&#116;&#x65;&#99;&#x68;&#64;&#110;&#97;&#x6d;&#115;&#104;&#x69;&#x2e;&#99;&#x6f;&#109;</a> to apply or simply
 get more informations about this job opening!</p></blockquote>
 
 <h2>About Namshi</h2>
@@ -1227,7 +1256,7 @@ benefits in working with us, but to recap the most important ones:</p>
 
 <blockquote><p>We are looking for a senior software engineer passionate about NodeJS and a frontend designer who is passionate and kick-ass in CSS and HTML and wants to expand his skillset with some JavaScript &mdash; we &lt;3 javascript :)</p>
 
-<p>We will detail in a separate post but, for the time being, feel free to reach out to submit your linkedin / github profile to <a href="&#x6d;&#97;&#x69;&#108;&#x74;&#x6f;&#58;&#x77;&#x6f;&#114;&#107;&#x2d;&#x69;&#x6e;&#x2d;&#x74;&#101;&#99;&#104;&#x40;&#x6e;&#x61;&#x6d;&#115;&#x68;&#105;&#x2e;&#x63;&#111;&#109;">&#119;&#x6f;&#114;&#x6b;&#45;&#105;&#110;&#45;&#x74;&#101;&#99;&#104;&#x40;&#110;&#x61;&#109;&#x73;&#x68;&#x69;&#x2e;&#99;&#111;&#109;</a></p></blockquote>
+<p>We will detail in a separate post but, for the time being, feel free to reach out to submit your linkedin / github profile to <a href="&#109;&#97;&#x69;&#x6c;&#x74;&#111;&#58;&#x77;&#x6f;&#114;&#107;&#x2d;&#105;&#x6e;&#x2d;&#116;&#x65;&#x63;&#104;&#64;&#110;&#97;&#109;&#x73;&#104;&#105;&#x2e;&#99;&#x6f;&#109;">&#119;&#x6f;&#114;&#x6b;&#x2d;&#x69;&#x6e;&#x2d;&#116;&#101;&#x63;&#x68;&#x40;&#x6e;&#97;&#x6d;&#x73;&#x68;&#105;&#x2e;&#x63;&#111;&#109;</a></p></blockquote>
 
 <p>Here are your links for this week!</p>
 
@@ -1603,51 +1632,6 @@ and even giving his very <a href="http://www.slideshare.net/adamquadmon/angular-
 <p>We really want to thank him for what he has done
 in the past 12 months at Namshi and wish him
 good luck for his next adventure!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[The Namshees invade the USA...   ...with PHP (and many more)!]]></title>
-    <link href="http://namshi.github.io/blog/2014/06/29/the-namshees-invade-the-usa-dot-dot-dot-dot-dot-dot-with-php/"/>
-    <updated>2014-06-29T22:58:00+04:00</updated>
-    <id>http://namshi.github.io/blog/2014/06/29/the-namshees-invade-the-usa-dot-dot-dot-dot-dot-dot-with-php</id>
-    <content type="html"><![CDATA[<p>If you&rsquo;re a geek somewhere around Boston, in September,
-you definitely don&rsquo;t want to miss the
-<a href="http://www.northeastphp.org/">PHP North East</a>
-conference, which has an amazing lineup of
-<a href="http://www.northeastphp.org/speakers">speakers</a>
-and <a href="http://www.northeastphp.org/speakers/view/176/Alessandro-Cinelli">a surprise</a>
-from Dubai.</p>
-
-<!-- more -->
-
-
-<p><img class="left" src="http://2014.phpday.it/wp-content/uploads/2014/03/cirpo.jpeg" width="250"></p>
-
-<p>Among the plethora of <a href="http://www.northeastphp.org/agenda">interesting talks</a>
-there will be a (definitely) fun one, &ldquo;<a href="http://www.northeastphp.org/talks/view/352/PHP-is-the-king-nodejs-is-the-prince-and-Lua-is-the-fool">PHP is the king, NodeJS the price and Lua
-is the fool</a>&rdquo;
-given by our <a href="http://tech.namshi.com/team/#Alessandro%20Cinelli%20(cirpo)">Cirpo</a> who will entertain the crowd with some
-details on how we mesh a whole lot of languages and platforms
-together.</p>
-
-<p>Namshi&rsquo;s SOA is currently running on at least 4 different
-application platforms and Cirpo took the opportunity to share some insights
-about how we are doing it: it will be a <em>hands-on</em> talk focused on
-decision-making, benefits and pitfalls of running such a heterogeneous
-architecture and how crazy ideas (like flirting with Lua) could be a
-game-changer in your next long-term project.</p>
-
-<p>Cirpo is no newbie to the world of speaking, as he already delivered
-a few talks in the past and, <a href="https://joind.in/user/view/956">judging by the ratings</a>,
-has a track record of nothing but success. Being a leader, at Namshi, doesn&rsquo;t mean
-to only set the tone for our team, but also to confront with the community,
-explain (and validate) our infrastructure and learn from the feedbacks we get back:
-Cirpo knows that very well and this will be a great experience from this
-standpoint.</p>
-
-<p>We wish him a safe trip to the U.S. and wish <strong>you</strong> can
-attend his talk!</p>
 ]]></content>
   </entry>
   
